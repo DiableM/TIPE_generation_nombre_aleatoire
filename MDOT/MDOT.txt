@@ -1,0 +1,5 @@
+https://theses.hal.science/tel-00759976v1/file/These_MathildeSoucarros.pdf (bible)
+THE PROBABILITY DISTRIBUTION OF THE DISTANCE BETWEEN TWO RANDOM POINTS IN A BOX. JOHAN PHILIP (formule test Statistics)
+Greenberger, Martin (1 March 1965). "Method in randomness". Commun. ACM. 8 (3): 177–179. doi:10.1145/363791.363827. ISSN 0001-0782. (PB generateur conguencielle test spectral)
+La suite logistique et le chaos Daniel PERRIN
+(deep math exo7)

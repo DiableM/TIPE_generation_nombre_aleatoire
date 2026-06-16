@@ -1,0 +1,7 @@
+Greenberger, Martin (1 March 1965). "Method in randomness". Commun. ACM. 8 (3): 177–179. doi:10.1145/363791.363827. ISSN 0001-0782.
+https://theses.hal.science/tel-00759976v1/file/These_MathildeSoucarros.pdf
+https://fr.wikipedia.org/wiki/Test_du_%CF%87%C2%B2
+https://fr.wikipedia.org/wiki/Tests_Diehard
+https://www.researchgate.net/scientific-contributions/George-Marsaglia-62558126
+T H E DISTANCE BETWEEN RANDOM POINTS,I N RECTANGLES,George Marsaglia B. Narasimhan,Arif Zaman,Supercomputer Computations Research Institute and, Department of Statistics,The Florida State University, Tallahassee, Florida 32306
+Cryptographically Secure Pseudo-Random Number Generation (CS-PRNG) Design using Robust Chaotic Tent Map (RCTM)

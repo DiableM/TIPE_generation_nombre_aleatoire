@@ -1,0 +1,6 @@
+Septembre/Octobre 2025 : Documentation sur les simulations de Monte Carlo
+Octobre/Novembre 2025 : Étude du générateur congruentiel et des LSFR
+Novembre 2025 : Étude de générateur exploitant des phénomènes chaotiques (suite logistique et bruit électrique)
+Novembre/Décembre 2025 : Première réalisation de l'expérience pour créer des nombres aléatoires à partir de bruit éléctrique, résultat prometteur mais pas abouti
+Janvier/Fevrier 2026 : Correction de notre montage expérimental, résltat satisfaisant mais pas assez de valeurs générées pour passer des tests statistiques
+Mars/Mai 2026 : Dernière réalisation de l'expérience, résultat convaincant et en assez grand nombre.
