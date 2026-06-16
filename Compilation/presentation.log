@@ -1,0 +1,2614 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.14)  8 JUN 2026 11:13
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Presentation/presentation.tex
+(./Presentation/presentation.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
+Document Class: beamer 2024/01/06 v3.71 A class for typesetting presentations
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count187
+)
+\beamer@tempbox=\box51
+\beamer@tempcount=\count188
+\c@beamerpauses=\count189
+
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+\beamer@slideinframe=\count190
+\beamer@minimum=\count191
+\beamer@decode@box=\box52
+)
+\beamer@commentbox=\box53
+\beamer@modecount=\count192
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+\headdp=\dimen140
+\footheight=\dimen141
+\sidebarheight=\dimen142
+\beamer@tempdim=\dimen143
+\beamer@finalheight=\dimen144
+\beamer@animht=\dimen145
+\beamer@animdp=\dimen146
+\beamer@animwd=\dimen147
+\beamer@leftmargin=\dimen148
+\beamer@rightmargin=\dimen149
+\beamer@leftsidebar=\dimen150
+\beamer@rightsidebar=\dimen151
+\beamer@boxsize=\dimen152
+\beamer@vboxoffset=\dimen153
+\beamer@descdefault=\dimen154
+\beamer@descriptionwidth=\dimen155
+\beamer@lastskip=\skip48
+\beamer@areabox=\box54
+\beamer@animcurrent=\box55
+\beamer@animshowbox=\box56
+\beamer@sectionbox=\box57
+\beamer@logobox=\box58
+\beamer@linebox=\box59
+\beamer@sectioncount=\count193
+\beamer@subsubsectionmax=\count194
+\beamer@subsectionmax=\count195
+\beamer@sectionmax=\count196
+\beamer@totalheads=\count197
+\beamer@headcounter=\count198
+\beamer@partstartpage=\count199
+\beamer@sectionstartpage=\count266
+\beamer@subsectionstartpage=\count267
+\beamer@animationtempa=\count268
+\beamer@animationtempb=\count269
+\beamer@xpos=\count270
+\beamer@ypos=\count271
+\beamer@ypos@offset=\count272
+\beamer@showpartnumber=\count273
+\beamer@currentsubsection=\count274
+\beamer@coveringdepth=\count275
+\beamer@sectionadjust=\count276
+\beamer@toclastsection=\count277
+\beamer@tocsectionnumber=\count278
+
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+))
+\beamer@paperwidth=\skip49
+\beamer@paperheight=\skip50
+
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count279
+\Gm@cntv=\count280
+\c@Gm@tempcnt=\count281
+\Gm@bindingoffset=\dimen156
+\Gm@wd@mp=\dimen157
+\Gm@odd@mp=\dimen158
+\Gm@even@mp=\dimen159
+\Gm@layoutwidth=\dimen160
+\Gm@layoutheight=\dimen161
+\Gm@layouthoffset=\dimen162
+\Gm@layoutvoffset=\dimen163
+\Gm@dimlist=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen164
+\pgfutil@tempdimb=\dimen165
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box60
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
+.code.tex
+\pgfkeys@tmptoks=\toks22
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+\pgf@x=\dimen166
+\pgf@xa=\dimen167
+\pgf@xb=\dimen168
+\pgf@xc=\dimen169
+\pgf@y=\dimen170
+\pgf@ya=\dimen171
+\pgf@yb=\dimen172
+\pgf@yc=\dimen173
+\c@pgf@counta=\count282
+\c@pgf@countb=\count283
+\c@pgf@countc=\count284
+\c@pgf@countd=\count285
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen174
+\pgfmath@count=\count286
+\pgfmath@box=\box61
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count287
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen175
+\Gin@req@width=\dimen176
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+\pgf@x=\dimen177
+\pgf@y=\dimen178
+\pgf@xa=\dimen179
+\pgf@ya=\dimen180
+\pgf@xb=\dimen181
+\pgf@yb=\dimen182
+\pgf@xc=\dimen183
+\pgf@yc=\dimen184
+\pgf@xd=\dimen185
+\pgf@yd=\dimen186
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count288
+\c@pgf@countb=\count289
+\c@pgf@countc=\count290
+\c@pgf@countd=\count291
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
+\pgf@sys@id@count=\count292
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count293
+\pgfsyssoftpath@bigbuffer@items=\count294
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen187
+\pgf@picmaxx=\dimen188
+\pgf@picminy=\dimen189
+\pgf@picmaxy=\dimen190
+\pgf@pathminx=\dimen191
+\pgf@pathmaxx=\dimen192
+\pgf@pathminy=\dimen193
+\pgf@pathmaxy=\dimen194
+\pgf@xx=\dimen195
+\pgf@xy=\dimen196
+\pgf@yx=\dimen197
+\pgf@yy=\dimen198
+\pgf@zx=\dimen199
+\pgf@zy=\dimen256
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen257
+\pgf@path@lasty=\dimen258
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen259
+\pgf@shorten@start@additional=\dimen260
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box62
+\pgf@hbox=\box63
+\pgf@layerbox@main=\box64
+\pgf@picture@serial@count=\count295
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen261
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen262
+\pgf@pt@y=\dimen263
+\pgf@pt@temp=\dimen264
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen265
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen266
+\pgf@sys@shading@range@num=\count296
+\pgf@shadingcount=\count297
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box65
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count298
+\XC@countmixins=\count299
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count300
+)
+\@linkdim=\dimen267
+\Hy@linkcounter=\count301
+\Hy@pagecounter=\count302
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count303
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4062.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4062.
+Package hyperref Info: Option `implicit' set `false' on input line 4062.
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count304
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen268
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count305
+\Field@Width=\dimen269
+\Fld@charsize=\dimen270
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+\Hy@abspage=\count306
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count307
+\c@bookmark@seq@number=\count308
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasefont.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks29
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2020/01/31
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+)))))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
+))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+\beamer@argscount=\count309
+\beamer@lastskipcover=\skip51
+\beamer@trivlistdepth=\count310
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+\c@lecture=\count311
+\c@part=\count312
+\c@section=\count313
+\c@subsection=\count314
+\c@subsubsection=\count315
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+\beamer@framebox=\box66
+\beamer@frametitlebox=\box67
+\beamer@zoombox=\box68
+\beamer@zoomcount=\count316
+\beamer@zoomframecount=\count317
+\beamer@frametextheight=\dimen271
+\c@subsectionslide=\count318
+\beamer@frametopskip=\skip52
+\beamer@framebottomskip=\skip53
+\beamer@frametopskipautobreak=\skip54
+\beamer@framebottomskipautobreak=\skip55
+\beamer@envbody=\toks30
+\framewidth=\dimen272
+\c@framenumber=\count319
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+\beamer@verbatimfileout=\write4
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+\beamer@splitbox=\box69
+\beamer@autobreakcount=\count320
+\beamer@autobreaklastheight=\dimen273
+\beamer@frametitletoks=\toks31
+\beamer@framesubtitletoks=\toks32
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
+\beamer@footins=\box70
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+\beamer@frameboxcopy=\box71
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+\beamer@sbttoks=\toks33
+
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+\bmb@box=\box72
+\bmb@colorbox=\box73
+\bmb@boxwidth=\dimen274
+\bmb@boxheight=\dimen275
+\bmb@prevheight=\dimen276
+\bmb@temp=\dimen277
+\bmb@dima=\dimen278
+\bmb@dimb=\dimen279
+\bmb@prevheight=\dimen280
+)
+\beamer@blockheadheight=\dimen281
+))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
+\@enLab=\toks34
+)
+\beamer@bibiconwidth=\skip56
+\c@figure=\count321
+\c@table=\count322
+\abovecaptionskip=\skip57
+\belowcaptionskip=\skip58
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenavigationsymbols.tex
+)
+\beamer@section@min@dim=\dimen282
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip59
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks35
+\ex@=\dimen283
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen284
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count323
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count324
+\leftroot@=\count325
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count326
+\DOTSCASE@=\count327
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box74
+\strutbox@=\box75
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen285
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count328
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count329
+\dotsspace@=\muskip17
+\c@parentequation=\count330
+\dspbrk@lvl=\count331
+\tag@help=\toks36
+\row@=\count332
+\column@=\count333
+\maxfields@=\count334
+\andhelp@=\toks37
+\eqnshift@=\dimen286
+\alignsep@=\dimen287
+\tagshift@=\dimen288
+\tagwidth@=\dimen289
+\totwidth@=\dimen290
+\lineht@=\dimen291
+\@envbody=\toks38
+\multlinegap=\skip60
+\multlinetaggap=\skip61
+\mathdisplay@stack=\toks39
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks40
+\thm@bodyfont=\toks41
+\thm@headfont=\toks42
+\thm@notefont=\toks43
+\thm@headpunct=\toks44
+\thm@preskip=\skip62
+\thm@postskip=\skip63
+\thm@headsep=\skip64
+\dth@everypar=\toks45
+)
+\c@theorem=\count335
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
+\beamer@dima=\dimen292
+\beamer@dimb=\dimen293
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box76
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen294
+\pgf@nodesepend=\dimen295
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen296
+\pgffor@skip=\dimen297
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count336
+\pgfplotmarksize=\dimen298
+)
+\tikz@lastx=\dimen299
+\tikz@lasty=\dimen300
+\tikz@lastxsaved=\dimen301
+\tikz@lastysaved=\dimen302
+\tikz@lastmovetox=\dimen303
+\tikz@lastmovetoy=\dimen304
+\tikzleveldistance=\dimen305
+\tikzsiblingdistance=\dimen306
+\tikz@figbox=\box77
+\tikz@figbox@bg=\box78
+\tikz@tempbox=\box79
+\tikz@tempbox@bg=\box80
+\tikztreelevel=\count337
+\tikznumberofchildren=\count338
+\tikznumberofcurrentchild=\count339
+\tikz@fig@count=\count340
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count341
+\pgfmatrixcurrentcolumn=\count342
+\pgf@matrix@numberofcolumns=\count343
+)
+\tikz@expandcount=\count344
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/circuitikz/circuitikz.sty
+Package: circuitikz 2023/12/09{} The CircuiTikz circuit drawing package version
+ 1.6.6
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen307
+\pgfarrowlength=\dimen308
+\pgfarrowwidth=\dimen309
+\pgfarrowlinewidth=\dimen310
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybending.code.tex
+File: tikzlibrarybending.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulebending.code.te
+x
+File: pgfmodulebending.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineartransf
+ormations.code.tex
+File: pgfmodulenonlineartransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgftransformnonlinearflatness=\dimen311
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvilinear.
+code.tex
+File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@curvilinear@time@a=\dimen312
+\pgf@curvilinear@length@a=\dimen313
+\pgf@curvilinear@length@b=\dimen314
+\pgf@curvilinear@length@c=\dimen315
+\pgf@curvilinear@length@d=\dimen316
+)
+\pgf@arrows@the@rigidity=\dimen317
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfpu.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+)) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
+\pgf@circ@count@a=\count345
+\pgf@circ@count@b=\count346
+\pgf@circ@count@c=\count347
+\pgf@circ@res@up=\dimen318
+\pgf@circ@res@down=\dimen319
+\pgf@circ@res@zero=\dimen320
+\pgf@circ@res@left=\dimen321
+\pgf@circ@res@right=\dimen322
+\pgf@circ@res@other=\dimen323
+\pgf@circ@res@step=\dimen324
+\pgf@circ@res@temp=\dimen325
+\pgf@circ@Rlen=\dimen326
+\pgf@circ@scaled@Rlen=\dimen327
+\pgfstartlinewidth=\dimen328
+)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex
+\ctikz@scratchbox=\box81
+)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex
+\pgf@circ@res@count=\count348
+)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircmultipoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
+\pgfcirc@labelshift=\dimen329
+)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2024/01/21 v0.5y Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count349
+\calc@Bcount=\count350
+\calc@Adimen=\dimen330
+\calc@Bdimen=\dimen331
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count351
+\calc@Cskip=\skip67
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen332
+\ESO@tempdimb=\dimen333
+)
+\AM@pagewidth=\dimen334
+\AM@pageheight=\dimen335
+\AM@fboxrule=\dimen336
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count352
+\AM@pagebox=\box82
+\AM@global@opts=\toks48
+\AM@pagecnt=\count353
+\AM@toc@title=\toks49
+\AM@lof@heading=\toks50
+\c@AM@survey=\count354
+\AM@templatesizebox=\box83
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks51
+\inpenc@posthook=\toks52
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/01/07 v24.1 The Babel package
+\babel@savecnt=\count355
+\U@D=\dimen337
+\l@unhyphenated=\language89
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read3
+LaTeX Info: Redefining \textlatin on input line 3986.
+\bbl@dirlevel=\count356
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2023-12-19 v3.5r French support from the babel system
+Package babel Info: Hyphen rules for 'acadian' set to \l@french
+(babel)             (\language49). Reported on input line 91.
+Package babel Info: Hyphen rules for 'canadien' set to \l@french
+(babel)             (\language49). Reported on input line 92.
+\FB@stdchar=\count357
+Package babel Info: Making : an active character on input line 420.
+Package babel Info: Making ; an active character on input line 421.
+Package babel Info: Making ! an active character on input line 422.
+Package babel Info: Making ? an active character on input line 423.
+\FBguill@level=\count358
+\FBold@everypar=\toks53
+\FB@Mht=\dimen338
+\mc@charclass=\count359
+\mc@charfam=\count360
+\mc@charslot=\count361
+\std@mcc=\count362
+\dec@mcc=\count363
+\FB@parskip=\dimen339
+\listindentFB=\dimen340
+\descindentFB=\dimen341
+\labelindentFB=\dimen342
+\labelwidthFB=\dimen343
+\leftmarginFB=\dimen344
+\parindentFFN=\dimen345
+\FBfnindent=\dimen346
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/fr/babel-french.tex
+Package babel Info: Importing font and identification data for french
+(babel)             from babel-fr.ini. Reported on input line 11.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+Package french.ldf Info: No list customisation for the beamer class,
+(french.ldf)             reported on input line 11.
+
+(/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count364
+\algocf@hangindent=\skip68
+
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count365
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip69
+\skiplinenumber=\skip70
+\skiprule=\skip71
+\skiphlne=\skip72
+\skiptext=\skip73
+\skiplength=\skip74
+\algomargin=\skip75
+\skipalgocfslide=\skip76
+\algowidth=\dimen347
+\inoutsize=\dimen348
+\inoutindent=\dimen349
+\interspacetitleruled=\dimen350
+\interspacealgoruled=\dimen351
+\interspacetitleboxruled=\dimen352
+\algocf@ruledwidth=\skip77
+\algocf@inoutbox=\box84
+\algocf@inputbox=\box85
+\AlCapSkip=\skip78
+\AlCapHSkip=\skip79
+\algoskipindent=\skip80
+\algocf@nlbox=\box86
+\algocf@hangingbox=\box87
+\algocf@untilbox=\box88
+\algocf@skipuntil=\skip81
+\algocf@capbox=\box89
+\algocf@lcaptionbox=\skip82
+\algoheightruledefault=\skip83
+\algoheightrule=\skip84
+\algotitleheightruledefault=\skip85
+\algotitleheightrule=\skip86
+\c@algocfline=\count366
+\c@algocfproc=\count367
+\c@algocf=\count368
+\algocf@algoframe=\box90
+\algocf@algobox=\box91
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybabel.code.tex
+File: tikzlibrarybabel.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeAntibes.sty
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemetree.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemerectangles.sty)
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 34.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 34.
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count369
+\l__pdf_internal_box=\box92
+)
+(Compilation/presentation.aux)
+\openout1 = `presentation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=307.28987pt
+* \textheight=244.6939pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count370
+\scratchdimen=\dimen353
+\scratchbox=\box93
+\nofMPsegments=\count371
+\nofMParguments=\count372
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count373
+\MPscratchDim=\dimen354
+\MPnumerator=\count374
+\makeMPintoPDFobject=\count375
+\everyMPtoPDFconversion=\toks55
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring OFF on input line 38.
+
+(Compilation/presentation.out) (Compilation/presentation.out)
+\@outlinefile=\write5
+\openout5 = `presentation.out'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 38.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 38.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 38.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 38.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 38.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 38.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 38.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 38.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 38.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 3
+8.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 3
+8.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 38.
+
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
+-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-bibliography-dic
+tionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-environment-dict
+ionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-months-dictionar
+y-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-numbers-dictiona
+ry-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
+ry-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+LaTeX Info: Redefining \degres on input line 38.
+LaTeX Info: Redefining \up on input line 38.
+
+
+Package french.ldf Warning: OT1 encoding should not be used for French.
+(french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
+(french.ldf)                of your document; reported on input line 38.
+
+(Compilation/presentation.nav)
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+40.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (Compilation/pres
+entation.toc) [2
+
+] [3
+
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 101
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 101
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
+ut line 101.
+
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+[4
+
+]
+Overfull \hbox (2.37746pt too wide) detected at line 131
+[]
+ []
+
+
+Overfull \hbox (31.17157pt too wide) in paragraph at lines 131--131
+ [] 
+ []
+
+
+Overfull \hbox (7.27034pt too wide) in paragraph at lines 131--131
+[][] 
+ []
+
+[5
+
+]
+<Figure/Image_presentation/marche_aleatoire_congruentiel1.png, id=180, 602.25pt
+ x 602.25pt>
+File: Figure/Image_presentation/marche_aleatoire_congruentiel1.png Graphic file
+ (type png)
+<use Figure/Image_presentation/marche_aleatoire_congruentiel1.png>
+Package pdftex.def Info: Figure/Image_presentation/marche_aleatoire_congruentie
+l1.png  used on input line 143.
+(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+[]\OT1/cmss/m/n/10.95 Congruentiel
+ []
+
+<Figure/Image_presentation/marche_aleatoire_physique1.png, id=182, 602.25pt x 6
+02.25pt>
+File: Figure/Image_presentation/marche_aleatoire_physique1.png Graphic file (ty
+pe png)
+<use Figure/Image_presentation/marche_aleatoire_physique1.png>
+Package pdftex.def Info: Figure/Image_presentation/marche_aleatoire_physique1.p
+ng  used on input line 143.
+(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+[]\OT1/cmss/m/n/10.95 Physique
+ []
+
+
+Overfull \hbox (12.28262pt too wide) in paragraph at lines 143--143
+[] 
+ []
+
+[6
+
+ <./Figure/Image_presentation/marche_aleatoire_congruentiel1.png> <./Figure/Ima
+ge_presentation/marche_aleatoire_physique1.png>]
+<Figure/Image_presentation/marche_aleatoire_congruentiel2.png, id=200, 602.25pt
+ x 602.25pt>
+File: Figure/Image_presentation/marche_aleatoire_congruentiel2.png Graphic file
+ (type png)
+<use Figure/Image_presentation/marche_aleatoire_congruentiel2.png>
+Package pdftex.def Info: Figure/Image_presentation/marche_aleatoire_congruentie
+l2.png  used on input line 155.
+(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+[]\OT1/cmss/m/n/10.95 Congruentiel
+ []
+
+<Figure/Image_presentation/marche_aleatoire_physique2.png, id=201, 602.25pt x 6
+02.25pt>
+File: Figure/Image_presentation/marche_aleatoire_physique2.png Graphic file (ty
+pe png)
+<use Figure/Image_presentation/marche_aleatoire_physique2.png>
+Package pdftex.def Info: Figure/Image_presentation/marche_aleatoire_physique2.p
+ng  used on input line 155.
+(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+[]\OT1/cmss/m/n/10.95 Physique
+ []
+
+
+Overfull \hbox (12.28262pt too wide) in paragraph at lines 155--155
+[] 
+ []
+
+[7
+
+ <./Figure/Image_presentation/marche_aleatoire_congruentiel2.png> <./Figure/Ima
+ge_presentation/marche_aleatoire_physique2.png>]
+<Figure/Image_presentation/marche_aleatoire_congruentiel3.png, id=220, 602.25pt
+ x 602.25pt>
+File: Figure/Image_presentation/marche_aleatoire_congruentiel3.png Graphic file
+ (type png)
+<use Figure/Image_presentation/marche_aleatoire_congruentiel3.png>
+Package pdftex.def Info: Figure/Image_presentation/marche_aleatoire_congruentie
+l3.png  used on input line 167.
+(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\OT1/cmss/m/n/10.95 Congruentiel
+ []
+
+<Figure/Image_presentation/marche_aleatoire_physique3.png, id=221, 602.25pt x 6
+02.25pt>
+File: Figure/Image_presentation/marche_aleatoire_physique3.png Graphic file (ty
+pe png)
+<use Figure/Image_presentation/marche_aleatoire_physique3.png>
+Package pdftex.def Info: Figure/Image_presentation/marche_aleatoire_physique3.p
+ng  used on input line 167.
+(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
+[]\OT1/cmss/m/n/10.95 Physique
+ []
+
+
+Overfull \hbox (12.28262pt too wide) in paragraph at lines 167--167
+[] 
+ []
+
+[8
+
+ <./Figure/Image_presentation/marche_aleatoire_congruentiel3.png> <./Figure/Ima
+ge_presentation/marche_aleatoire_physique3.png>]
+<Figure/Image_presentation/marche_aleatoire_congruentiel4.png, id=240, 602.25pt
+ x 602.25pt>
+File: Figure/Image_presentation/marche_aleatoire_congruentiel4.png Graphic file
+ (type png)
+<use Figure/Image_presentation/marche_aleatoire_congruentiel4.png>
+Package pdftex.def Info: Figure/Image_presentation/marche_aleatoire_congruentie
+l4.png  used on input line 179.
+(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+[]\OT1/cmss/m/n/10.95 Congruentiel
+ []
+
+<Figure/Image_presentation/marche_aleatoire_physique4.png, id=241, 602.25pt x 6
+02.25pt>
+File: Figure/Image_presentation/marche_aleatoire_physique4.png Graphic file (ty
+pe png)
+<use Figure/Image_presentation/marche_aleatoire_physique4.png>
+Package pdftex.def Info: Figure/Image_presentation/marche_aleatoire_physique4.p
+ng  used on input line 179.
+(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+[]\OT1/cmss/m/n/10.95 Physique
+ []
+
+
+Overfull \hbox (12.28262pt too wide) in paragraph at lines 179--179
+[] 
+ []
+
+[9
+
+ <./Figure/Image_presentation/marche_aleatoire_congruentiel4.png> <./Figure/Ima
+ge_presentation/marche_aleatoire_physique4.png>] [10
+
+] [11
+
+]
+Overfull \hbox (0.64716pt too wide) in paragraph at lines 226--226
+ [] 
+ []
+
+[12
+
+] [13
+
+]
+<Figure/Image_presentation/descente_gradient.png, id=316, 462.528pt x 346.896pt
+>
+File: Figure/Image_presentation/descente_gradient.png Graphic file (type png)
+<use Figure/Image_presentation/descente_gradient.png>
+Package pdftex.def Info: Figure/Image_presentation/descente_gradient.png  used 
+on input line 243.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+ [14
+
+ <./Figure/Image_presentation/descente_gradient.png>]
+<Figure/Image_presentation/volume.png, id=333, 462.528pt x 346.896pt>
+File: Figure/Image_presentation/volume.png Graphic file (type png)
+<use Figure/Image_presentation/volume.png>
+Package pdftex.def Info: Figure/Image_presentation/volume.png  used on input li
+ne 255.
+(pdftex.def)             Requested size: 147.49782pt x 110.62257pt.
+<Figure/Image_presentation/surface_chemin.png, id=334, 462.528pt x 346.896pt>
+File: Figure/Image_presentation/surface_chemin.png Graphic file (type png)
+<use Figure/Image_presentation/surface_chemin.png>
+Package pdftex.def Info: Figure/Image_presentation/surface_chemin.png  used on 
+input line 255.
+(pdftex.def)             Requested size: 161.88722pt x 121.4154pt.
+
+Overfull \hbox (14.3894pt too wide) in paragraph at lines 255--255
+ [][] 
+ []
+
+[15
+
+ <./Figure/Image_presentation/volume.png> <./Figure/Image_presentation/surface_
+chemin.png>]
+<Figure/Image_presentation/intervalle_phase1.png, id=352, 578.16pt x 433.62pt>
+File: Figure/Image_presentation/intervalle_phase1.png Graphic file (type png)
+<use Figure/Image_presentation/intervalle_phase1.png>
+Package pdftex.def Info: Figure/Image_presentation/intervalle_phase1.png  used 
+on input line 269.
+(pdftex.def)             Requested size: 144.53964pt x 108.40472pt.
+<Figure/Image_presentation/intervalle_phase2.png, id=353, 578.16pt x 433.62pt>
+File: Figure/Image_presentation/intervalle_phase2.png Graphic file (type png)
+<use Figure/Image_presentation/intervalle_phase2.png>
+Package pdftex.def Info: Figure/Image_presentation/intervalle_phase2.png  used 
+on input line 269.
+(pdftex.def)             Requested size: 144.53964pt x 108.40472pt.
+
+Overfull \hbox (6.26015pt too wide) in paragraph at lines 269--269
+ [][] 
+ []
+
+[16
+
+ <./Figure/Image_presentation/intervalle_phase1.png> <./Figure/Image_presentati
+on/intervalle_phase2.png>]
+<Figure/Image_presentation/intervalle_reduction1.png, id=371, 462.528pt x 346.8
+96pt>
+File: Figure/Image_presentation/intervalle_reduction1.png Graphic file (type pn
+g)
+<use Figure/Image_presentation/intervalle_reduction1.png>
+Package pdftex.def Info: Figure/Image_presentation/intervalle_reduction1.png  u
+sed on input line 285.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+<Figure/Image_presentation/intervalle_reduction2.png, id=372, 462.528pt x 346.8
+96pt>
+File: Figure/Image_presentation/intervalle_reduction2.png Graphic file (type pn
+g)
+<use Figure/Image_presentation/intervalle_reduction2.png>
+Package pdftex.def Info: Figure/Image_presentation/intervalle_reduction2.png  u
+sed on input line 285.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+Overfull \hbox (6.49036pt too wide) in paragraph at lines 285--285
+ [] 
+ []
+
+[17
+
+ <./Figure/Image_presentation/intervalle_reduction1.png> <./Figure/Image_presen
+tation/intervalle_reduction2.png>] [18
+
+] [19
+
+]
+<Figure/Image_presentation/circuit_explication.jpg, id=416, 136.8312pt x 96.841
+8pt>
+File: Figure/Image_presentation/circuit_explication.jpg Graphic file (type jpg)
+
+<use Figure/Image_presentation/circuit_explication.jpg>
+Package pdftex.def Info: Figure/Image_presentation/circuit_explication.jpg  use
+d on input line 314.
+(pdftex.def)             Requested size: 273.66171pt x 193.68307pt.
+ [20
+
+ <./Figure/Image_presentation/circuit_explication.jpg>]
+Overfull \hbox (9.07045pt too wide) in paragraph at lines 343--343
+ [] 
+ []
+
+[21
+
+]
+<Figure/Image_presentation/montage1.jpg, id=445, 1606.0pt x 1204.5pt>
+File: Figure/Image_presentation/montage1.jpg Graphic file (type jpg)
+<use Figure/Image_presentation/montage1.jpg>
+Package pdftex.def Info: Figure/Image_presentation/montage1.jpg  used on input 
+line 353.
+(pdftex.def)             Requested size: 160.6094pt x 120.45705pt.
+
+Overfull \hbox (6.96448pt too wide) in paragraph at lines 353--353
+[][] 
+ []
+
+<Figure/Image_presentation/montage2.jpg, id=446, 1606.0pt x 1204.5pt>
+File: Figure/Image_presentation/montage2.jpg Graphic file (type jpg)
+<use Figure/Image_presentation/montage2.jpg>
+Package pdftex.def Info: Figure/Image_presentation/montage2.jpg  used on input 
+line 353.
+(pdftex.def)             Requested size: 160.6094pt x 120.45705pt.
+
+Overfull \hbox (22.32991pt too wide) in paragraph at lines 353--353
+[][] 
+ []
+
+[22
+
+ <./Figure/Image_presentation/montage1.jpg> <./Figure/Image_presentation/montag
+e2.jpg>]
+<Figure/Image_presentation/bruit_rien.jpg, id=463, 1606.0pt x 1204.5pt>
+File: Figure/Image_presentation/bruit_rien.jpg Graphic file (type jpg)
+<use Figure/Image_presentation/bruit_rien.jpg>
+Package pdftex.def Info: Figure/Image_presentation/bruit_rien.jpg  used on inpu
+t line 367.
+(pdftex.def)             Requested size: 160.6094pt x 120.45705pt.
+
+Overfull \hbox (6.96448pt too wide) in paragraph at lines 367--367
+ [] 
+ []
+
+<Figure/Image_presentation/bruit_main.jpg, id=464, 1606.0pt x 1204.5pt>
+File: Figure/Image_presentation/bruit_main.jpg Graphic file (type jpg)
+<use Figure/Image_presentation/bruit_main.jpg>
+Package pdftex.def Info: Figure/Image_presentation/bruit_main.jpg  used on inpu
+t line 367.
+(pdftex.def)             Requested size: 160.6094pt x 120.45705pt.
+
+Overfull \hbox (22.32991pt too wide) in paragraph at lines 367--367
+ [] 
+ []
+
+[23
+
+ <./Figure/Image_presentation/bruit_rien.jpg> <./Figure/Image_presentation/brui
+t_main.jpg>]
+<Figure/Image_presentation/tension_experience1.png, id=480, 462.528pt x 346.896
+pt>
+File: Figure/Image_presentation/tension_experience1.png Graphic file (type png)
+
+<use Figure/Image_presentation/tension_experience1.png>
+Package pdftex.def Info: Figure/Image_presentation/tension_experience1.png  use
+d on input line 372.
+(pdftex.def)             Requested size: 277.51894pt x 208.13919pt.
+ [24
+
+ <./Figure/Image_presentation/tension_experience1.png>]
+File: Figure/Image_presentation/tension_experience1.png Graphic file (type png)
+
+<use Figure/Image_presentation/tension_experience1.png>
+Package pdftex.def Info: Figure/Image_presentation/tension_experience1.png  use
+d on input line 391.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+
+Overfull \hbox (77.6185pt too wide) in paragraph at lines 391--391
+[][] 
+ []
+
+
+Overfull \hbox (1.55931pt too wide) in paragraph at lines 391--391
+[]\OT1/cmss/m/n/10.95 0100011010011110 
+ []
+
+
+Overfull \hbox (1.55931pt too wide) in paragraph at lines 391--391
+\OT1/cmss/m/n/10.95 1111010101111010 
+ []
+
+
+Overfull \hbox (1.55931pt too wide) in paragraph at lines 391--391
+\OT1/cmss/m/n/10.95 1101011010100000 
+ []
+
+
+Overfull \hbox (1.55931pt too wide) in paragraph at lines 391--391
+\OT1/cmss/m/n/10.95 1001111100111100 
+ []
+
+
+Overfull \hbox (1.55931pt too wide) in paragraph at lines 391--391
+\OT1/cmss/m/n/10.95 1110010111110100 
+ []
+
+
+Overfull \hbox (1.55931pt too wide) in paragraph at lines 391--391
+\OT1/cmss/m/n/10.95 1100010011101110 
+ []
+
+
+Overfull \hbox (1.55931pt too wide) in paragraph at lines 391--391
+\OT1/cmss/m/n/10.95 1010101000000100 
+ []
+
+
+Overfull \hbox (1.55931pt too wide) in paragraph at lines 391--391
+\OT1/cmss/m/n/10.95 0011000010101110 
+ []
+
+[25
+
+] [26
+
+] [27
+
+]
+<Figure/Image_presentation/distribution1.png, id=538, 462.528pt x 346.896pt>
+File: Figure/Image_presentation/distribution1.png Graphic file (type png)
+<use Figure/Image_presentation/distribution1.png>
+Package pdftex.def Info: Figure/Image_presentation/distribution1.png  used on i
+nput line 431.
+(pdftex.def)             Requested size: 161.88722pt x 121.4154pt.
+
+Overfull \hbox (8.2423pt too wide) in paragraph at lines 431--431
+[][] 
+ []
+
+<Figure/Image_presentation/distribution2.png, id=539, 462.528pt x 346.896pt>
+File: Figure/Image_presentation/distribution2.png Graphic file (type png)
+<use Figure/Image_presentation/distribution2.png>
+Package pdftex.def Info: Figure/Image_presentation/distribution2.png  used on i
+nput line 431.
+(pdftex.def)             Requested size: 161.88722pt x 121.4154pt.
+
+Overfull \hbox (23.60773pt too wide) in paragraph at lines 431--431
+[][] 
+ []
+
+[28
+
+ <./Figure/Image_presentation/distribution1.png> <./Figure/Image_presentation/d
+istribution2.png>]
+Overfull \hbox (21.45601pt too wide) in paragraph at lines 495--495
+ [] 
+ []
+
+[29
+
+]
+<Figure/Image_presentation/explication_densite1.png, id=570, 462.528pt x 346.89
+6pt>
+File: Figure/Image_presentation/explication_densite1.png Graphic file (type png
+)
+<use Figure/Image_presentation/explication_densite1.png>
+Package pdftex.def Info: Figure/Image_presentation/explication_densite1.png  us
+ed on input line 505.
+(pdftex.def)             Requested size: 161.88722pt x 121.4154pt.
+
+Overfull \hbox (8.2423pt too wide) in paragraph at lines 505--505
+[][] 
+ []
+
+<Figure/Image_presentation/explication_densite2.png, id=571, 462.528pt x 346.89
+6pt>
+File: Figure/Image_presentation/explication_densite2.png Graphic file (type png
+)
+<use Figure/Image_presentation/explication_densite2.png>
+Package pdftex.def Info: Figure/Image_presentation/explication_densite2.png  us
+ed on input line 505.
+(pdftex.def)             Requested size: 161.88722pt x 121.4154pt.
+
+Overfull \hbox (23.60773pt too wide) in paragraph at lines 505--505
+[][] 
+ []
+
+[30
+
+ <./Figure/Image_presentation/explication_densite1.png> <./Figure/Image_present
+ation/explication_densite2.png>]
+<Figure/Image_presentation/densiter_theorique.png, id=589, 462.528pt x 346.896p
+t>
+File: Figure/Image_presentation/densiter_theorique.png Graphic file (type png)
+<use Figure/Image_presentation/densiter_theorique.png>
+Package pdftex.def Info: Figure/Image_presentation/densiter_theorique.png  used
+ on input line 520.
+(pdftex.def)             Requested size: 208.13567pt x 156.10175pt.
+ [31
+
+ <./Figure/Image_presentation/densiter_theorique.png>]
+<Figure/Image_presentation/test_densite1.png, id=609, 462.528pt x 346.896pt>
+File: Figure/Image_presentation/test_densite1.png Graphic file (type png)
+<use Figure/Image_presentation/test_densite1.png>
+Package pdftex.def Info: Figure/Image_presentation/test_densite1.png  used on i
+nput line 525.
+(pdftex.def)             Requested size: 254.39117pt x 190.79338pt.
+ [32
+
+ <./Figure/Image_presentation/test_densite1.png>]
+File: Figure/Image_presentation/test_densite1.png Graphic file (type png)
+<use Figure/Image_presentation/test_densite1.png>
+Package pdftex.def Info: Figure/Image_presentation/test_densite1.png  used on i
+nput line 541.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+<Figure/Image_presentation/test_densite2.png, id=626, 462.528pt x 346.896pt>
+File: Figure/Image_presentation/test_densite2.png Graphic file (type png)
+<use Figure/Image_presentation/test_densite2.png>
+Package pdftex.def Info: Figure/Image_presentation/test_densite2.png  used on i
+nput line 541.
+(pdftex.def)             Requested size: 142.26378pt x 106.70032pt.
+
+Overfull \hbox (6.49036pt too wide) in paragraph at lines 541--541
+ [] 
+ []
+
+[33
+
+ <./Figure/Image_presentation/test_densite2.png>]
+<Figure/Image_presentation/comparaison_generateur1.png, id=643, 462.528pt x 346
+.896pt>
+File: Figure/Image_presentation/comparaison_generateur1.png Graphic file (type 
+png)
+<use Figure/Image_presentation/comparaison_generateur1.png>
+Package pdftex.def Info: Figure/Image_presentation/comparaison_generateur1.png 
+ used on input line 559.
+(pdftex.def)             Requested size: 161.88722pt x 121.4154pt.
+
+Overfull \hbox (23.60773pt too wide) in paragraph at lines 559--559
+[][] 
+ []
+
+[34
+
+ <./Figure/Image_presentation/comparaison_generateur1.png>]
+<Figure/Image_presentation/comparaison_generateur2.png, id=660, 462.528pt x 346
+.896pt>
+File: Figure/Image_presentation/comparaison_generateur2.png Graphic file (type 
+png)
+<use Figure/Image_presentation/comparaison_generateur2.png>
+Package pdftex.def Info: Figure/Image_presentation/comparaison_generateur2.png 
+ used on input line 563.
+(pdftex.def)             Requested size: 300.63962pt x 225.47972pt.
+
+Overfull \vbox (16.74239pt too high) detected at line 563
+ []
+
+[35
+
+ <./Figure/Image_presentation/comparaison_generateur2.png>] [36
+
+] [37
+
+]
+<annexe.pdf, id=694, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf>
+Package pdftex.def Info: annexe.pdf  used on input line 591.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf>
+Package pdftex.def Info: annexe.pdf  used on input line 591.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+<annexe.pdf, id=697, page=1, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 1>
+Package pdftex.def Info: annexe.pdf , page1 used on input line 591.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 1>
+Package pdftex.def Info: annexe.pdf , page1 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 1>
+Package pdftex.def Info: annexe.pdf , page1 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 1>
+Package pdftex.def Info: annexe.pdf , page1 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 1>
+Package pdftex.def Info: annexe.pdf , page1 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+
+[38
+
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=735, page=2, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 2>
+Package pdftex.def Info: annexe.pdf , page2 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 2>
+Package pdftex.def Info: annexe.pdf , page2 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 2>
+Package pdftex.def Info: annexe.pdf , page2 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [39
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=776, page=3, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 3>
+Package pdftex.def Info: annexe.pdf , page3 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 3>
+Package pdftex.def Info: annexe.pdf , page3 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 3>
+Package pdftex.def Info: annexe.pdf , page3 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [40
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=783, page=4, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 4>
+Package pdftex.def Info: annexe.pdf , page4 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 4>
+Package pdftex.def Info: annexe.pdf , page4 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 4>
+Package pdftex.def Info: annexe.pdf , page4 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [41
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=790, page=5, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 5>
+Package pdftex.def Info: annexe.pdf , page5 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 5>
+Package pdftex.def Info: annexe.pdf , page5 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 5>
+Package pdftex.def Info: annexe.pdf , page5 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [42
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=815, page=6, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 6>
+Package pdftex.def Info: annexe.pdf , page6 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 6>
+Package pdftex.def Info: annexe.pdf , page6 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 6>
+Package pdftex.def Info: annexe.pdf , page6 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [43
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=823, page=7, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 7>
+Package pdftex.def Info: annexe.pdf , page7 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 7>
+Package pdftex.def Info: annexe.pdf , page7 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 7>
+Package pdftex.def Info: annexe.pdf , page7 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [44
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=830, page=8, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 8>
+Package pdftex.def Info: annexe.pdf , page8 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 8>
+Package pdftex.def Info: annexe.pdf , page8 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 8>
+Package pdftex.def Info: annexe.pdf , page8 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [45
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=837, page=9, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 9>
+Package pdftex.def Info: annexe.pdf , page9 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 9>
+Package pdftex.def Info: annexe.pdf , page9 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 9>
+Package pdftex.def Info: annexe.pdf , page9 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [46
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=844, page=10, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 10>
+Package pdftex.def Info: annexe.pdf , page10 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 10>
+Package pdftex.def Info: annexe.pdf , page10 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 10>
+Package pdftex.def Info: annexe.pdf , page10 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [47
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=852, page=11, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 11>
+Package pdftex.def Info: annexe.pdf , page11 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 11>
+Package pdftex.def Info: annexe.pdf , page11 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 11>
+Package pdftex.def Info: annexe.pdf , page11 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [48
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=859, page=12, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 12>
+Package pdftex.def Info: annexe.pdf , page12 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 12>
+Package pdftex.def Info: annexe.pdf , page12 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 12>
+Package pdftex.def Info: annexe.pdf , page12 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [49
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=867, page=13, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 13>
+Package pdftex.def Info: annexe.pdf , page13 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 13>
+Package pdftex.def Info: annexe.pdf , page13 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 13>
+Package pdftex.def Info: annexe.pdf , page13 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [50
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=874, page=14, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 14>
+Package pdftex.def Info: annexe.pdf , page14 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 14>
+Package pdftex.def Info: annexe.pdf , page14 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 14>
+Package pdftex.def Info: annexe.pdf , page14 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+
+[51
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=881, page=15, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 15>
+Package pdftex.def Info: annexe.pdf , page15 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 15>
+Package pdftex.def Info: annexe.pdf , page15 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 15>
+Package pdftex.def Info: annexe.pdf , page15 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [52
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=888, page=16, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 16>
+Package pdftex.def Info: annexe.pdf , page16 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 16>
+Package pdftex.def Info: annexe.pdf , page16 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 16>
+Package pdftex.def Info: annexe.pdf , page16 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [53
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=895, page=17, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 17>
+Package pdftex.def Info: annexe.pdf , page17 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 17>
+Package pdftex.def Info: annexe.pdf , page17 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 17>
+Package pdftex.def Info: annexe.pdf , page17 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [54
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=902, page=18, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 18>
+Package pdftex.def Info: annexe.pdf , page18 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 18>
+Package pdftex.def Info: annexe.pdf , page18 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 18>
+Package pdftex.def Info: annexe.pdf , page18 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [55
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=910, page=19, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 19>
+Package pdftex.def Info: annexe.pdf , page19 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 19>
+Package pdftex.def Info: annexe.pdf , page19 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 19>
+Package pdftex.def Info: annexe.pdf , page19 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [56
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=917, page=20, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 20>
+Package pdftex.def Info: annexe.pdf , page20 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 20>
+Package pdftex.def Info: annexe.pdf , page20 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 20>
+Package pdftex.def Info: annexe.pdf , page20 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [57
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=924, page=21, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 21>
+Package pdftex.def Info: annexe.pdf , page21 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 21>
+Package pdftex.def Info: annexe.pdf , page21 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 21>
+Package pdftex.def Info: annexe.pdf , page21 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [58
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=931, page=22, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 22>
+Package pdftex.def Info: annexe.pdf , page22 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 22>
+Package pdftex.def Info: annexe.pdf , page22 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 22>
+Package pdftex.def Info: annexe.pdf , page22 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [59
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=938, page=23, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 23>
+Package pdftex.def Info: annexe.pdf , page23 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 23>
+Package pdftex.def Info: annexe.pdf , page23 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 23>
+Package pdftex.def Info: annexe.pdf , page23 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [60
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=945, page=24, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 24>
+Package pdftex.def Info: annexe.pdf , page24 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 24>
+Package pdftex.def Info: annexe.pdf , page24 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 24>
+Package pdftex.def Info: annexe.pdf , page24 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [61
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=953, page=25, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 25>
+Package pdftex.def Info: annexe.pdf , page25 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 25>
+Package pdftex.def Info: annexe.pdf , page25 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 25>
+Package pdftex.def Info: annexe.pdf , page25 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [62
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=960, page=26, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 26>
+Package pdftex.def Info: annexe.pdf , page26 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 26>
+Package pdftex.def Info: annexe.pdf , page26 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 26>
+Package pdftex.def Info: annexe.pdf , page26 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [63
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=967, page=27, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 27>
+Package pdftex.def Info: annexe.pdf , page27 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 27>
+Package pdftex.def Info: annexe.pdf , page27 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 27>
+Package pdftex.def Info: annexe.pdf , page27 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+
+[64
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=974, page=28, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 28>
+Package pdftex.def Info: annexe.pdf , page28 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 28>
+Package pdftex.def Info: annexe.pdf , page28 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 28>
+Package pdftex.def Info: annexe.pdf , page28 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [65
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=981, page=29, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 29>
+Package pdftex.def Info: annexe.pdf , page29 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 29>
+Package pdftex.def Info: annexe.pdf , page29 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 29>
+Package pdftex.def Info: annexe.pdf , page29 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [66
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=988, page=30, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 30>
+Package pdftex.def Info: annexe.pdf , page30 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 30>
+Package pdftex.def Info: annexe.pdf , page30 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 30>
+Package pdftex.def Info: annexe.pdf , page30 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [67
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=997, page=31, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 31>
+Package pdftex.def Info: annexe.pdf , page31 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 31>
+Package pdftex.def Info: annexe.pdf , page31 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 31>
+Package pdftex.def Info: annexe.pdf , page31 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [68
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=1004, page=32, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 32>
+Package pdftex.def Info: annexe.pdf , page32 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 32>
+Package pdftex.def Info: annexe.pdf , page32 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 32>
+Package pdftex.def Info: annexe.pdf , page32 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [69
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=1011, page=33, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 33>
+Package pdftex.def Info: annexe.pdf , page33 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 33>
+Package pdftex.def Info: annexe.pdf , page33 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 33>
+Package pdftex.def Info: annexe.pdf , page33 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [70
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=1018, page=34, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 34>
+Package pdftex.def Info: annexe.pdf , page34 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 34>
+Package pdftex.def Info: annexe.pdf , page34 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 34>
+Package pdftex.def Info: annexe.pdf , page34 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [71
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=1025, page=35, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 35>
+Package pdftex.def Info: annexe.pdf , page35 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 35>
+Package pdftex.def Info: annexe.pdf , page35 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 35>
+Package pdftex.def Info: annexe.pdf , page35 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [72
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=1032, page=36, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 36>
+Package pdftex.def Info: annexe.pdf , page36 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 36>
+Package pdftex.def Info: annexe.pdf , page36 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 36>
+Package pdftex.def Info: annexe.pdf , page36 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [73
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=1040, page=37, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 37>
+Package pdftex.def Info: annexe.pdf , page37 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 37>
+Package pdftex.def Info: annexe.pdf , page37 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 37>
+Package pdftex.def Info: annexe.pdf , page37 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [74
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=1047, page=38, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 38>
+Package pdftex.def Info: annexe.pdf , page38 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 38>
+Package pdftex.def Info: annexe.pdf , page38 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 38>
+Package pdftex.def Info: annexe.pdf , page38 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [75
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=1054, page=39, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 39>
+Package pdftex.def Info: annexe.pdf , page39 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 39>
+Package pdftex.def Info: annexe.pdf , page39 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 39>
+Package pdftex.def Info: annexe.pdf , page39 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [76
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=1061, page=40, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 40>
+Package pdftex.def Info: annexe.pdf , page40 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 40>
+Package pdftex.def Info: annexe.pdf , page40 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 40>
+Package pdftex.def Info: annexe.pdf , page40 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+
+[77
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=1068, page=41, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 41>
+Package pdftex.def Info: annexe.pdf , page41 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 41>
+Package pdftex.def Info: annexe.pdf , page41 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 41>
+Package pdftex.def Info: annexe.pdf , page41 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [78
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=1075, page=42, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 42>
+Package pdftex.def Info: annexe.pdf , page42 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 42>
+Package pdftex.def Info: annexe.pdf , page42 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 42>
+Package pdftex.def Info: annexe.pdf , page42 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [79
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=1083, page=43, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 43>
+Package pdftex.def Info: annexe.pdf , page43 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 43>
+Package pdftex.def Info: annexe.pdf , page43 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 43>
+Package pdftex.def Info: annexe.pdf , page43 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [80
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=1090, page=44, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 44>
+Package pdftex.def Info: annexe.pdf , page44 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 44>
+Package pdftex.def Info: annexe.pdf , page44 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 44>
+Package pdftex.def Info: annexe.pdf , page44 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [81
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=1097, page=45, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 45>
+Package pdftex.def Info: annexe.pdf , page45 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 45>
+Package pdftex.def Info: annexe.pdf , page45 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 45>
+Package pdftex.def Info: annexe.pdf , page45 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [82
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=1104, page=46, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 46>
+Package pdftex.def Info: annexe.pdf , page46 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 46>
+Package pdftex.def Info: annexe.pdf , page46 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 46>
+Package pdftex.def Info: annexe.pdf , page46 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [83
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=1111, page=47, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 47>
+Package pdftex.def Info: annexe.pdf , page47 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 47>
+Package pdftex.def Info: annexe.pdf , page47 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 47>
+Package pdftex.def Info: annexe.pdf , page47 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [84
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=1118, page=48, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 48>
+Package pdftex.def Info: annexe.pdf , page48 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 48>
+Package pdftex.def Info: annexe.pdf , page48 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 48>
+Package pdftex.def Info: annexe.pdf , page48 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [85
+
+ <Compilation/annexe.pdf>]
+<annexe.pdf, id=1126, page=49, 845.0471pt x 597.50829pt>
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 49>
+Package pdftex.def Info: annexe.pdf , page49 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 49>
+Package pdftex.def Info: annexe.pdf , page49 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+File: annexe.pdf Graphic file (type pdf)
+<use annexe.pdf, page 49>
+Package pdftex.def Info: annexe.pdf , page49 used on input line 591.
+(pdftex.def)             Requested size: 845.08372pt x 597.53416pt.
+ [86
+
+ <Compilation/annexe.pdf>]
+\tf@nav=\write6
+\openout6 = `presentation.nav'.
+
+\tf@toc=\write7
+\openout7 = `presentation.toc'.
+
+\tf@snm=\write8
+\openout8 = `presentation.snm'.
+
+
+(Compilation/presentation.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+Package rerunfilecheck Info: File `presentation.out' has not changed.
+(rerunfilecheck)             Checksum: E7EDE3A7F8992C5FA064729080BFEFCB;2219.
+ ) 
+Here is how much of TeX's memory you used:
+ 46790 strings out of 474222
+ 1104759 string characters out of 5748733
+ 1942975 words of memory out of 5000000
+ 68165 multiletter control sequences out of 15000+600000
+ 575254 words of font info for 98 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 128i,20n,123p,417b,977s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
+i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texm
+f/fonts/type1/public/cm-super/sfrm0500.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.p
+fb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf
+/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/
+cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pf
+b>
+Output written on Compilation/presentation.pdf (86 pages, 2477620 bytes).
+PDF statistics:
+ 1285 PDF objects out of 1440 (max. 8388607)
+ 778 compressed objects within 8 object streams
+ 237 named destinations out of 1000 (max. 500000)
+ 573 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,15 @@
+\babel@toc {french}{}\relax 
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Problème lié à un mauvais générateur}{3}{0}{1}
+\beamer@sectionintoc {2}{Générateur congruentiel}{10}{0}{2}
+\beamer@subsectionintoc {2}{1}{Définition}{11}{0}{2}
+\beamer@subsectionintoc {2}{2}{Méthode pour prédire}{12}{0}{2}
+\beamer@sectionintoc {3}{Générateur physique}{19}{0}{3}
+\beamer@subsectionintoc {3}{1}{Théorie}{20}{0}{3}
+\beamer@subsectionintoc {3}{2}{Montage}{21}{0}{3}
+\beamer@subsectionintoc {3}{3}{Résultats}{24}{0}{3}
+\beamer@subsectionintoc {3}{4}{Interprétation des résultats}{25}{0}{3}
+\beamer@sectionintoc {4}{Tests statistiques}{27}{0}{4}
+\beamer@subsectionintoc {4}{1}{Distribution}{28}{0}{4}
+\beamer@subsectionintoc {4}{2}{Test de la distance entre deux points d'un carré}{29}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{36}{0}{5}

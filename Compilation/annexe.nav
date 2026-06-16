@@ -1,0 +1,55 @@
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\beamer@sectionpages {1}{2}}
+\headcommand {\beamer@subsectionpages {1}{2}}
+\headcommand {\sectionentry {1}{Historique des différents montage de l'Expérience}{3}{Historique des différents montage de l'Expérience}{0}}
+\headcommand {\beamer@sectionpages {3}{9}}
+\headcommand {\beamer@subsectionpages {3}{9}}
+\headcommand {\sectionentry {2}{Programme 1 -- Générateur aléatoire}{10}{Programme 1 -- Générateur aléatoire}{0}}
+\headcommand {\beamer@subsectionpages {10}{9}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{10}{generateur\_aleatoire.h}}
+\headcommand {\beamer@subsectionpages {10}{14}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{15}{generateur\_aleatoire.c}}
+\headcommand {\beamer@sectionpages {10}{26}}
+\headcommand {\beamer@subsectionpages {15}{26}}
+\headcommand {\sectionentry {3}{Programme 2 -- Marche aléatoire}{27}{Programme 2 -- Marche aléatoire}{0}}
+\headcommand {\beamer@subsectionpages {27}{26}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{27}{marche\_aleatoire.c}}
+\headcommand {\beamer@sectionpages {27}{35}}
+\headcommand {\beamer@subsectionpages {27}{35}}
+\headcommand {\sectionentry {4}{Programme 3 -- Trouver les coefficients d'un générateur congruentiel}{36}{Programme 3 -- Trouver les coefficients d'un générateur congruentiel}{0}}
+\headcommand {\beamer@subsectionpages {36}{35}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{36}{engine.h}}
+\headcommand {\beamer@subsectionpages {36}{44}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{45}{main.c}}
+\headcommand {\beamer@subsectionpages {45}{53}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{54}{fonction\_generique.c}}
+\headcommand {\beamer@subsectionpages {54}{60}}
+\headcommand {\beamer@subsectionentry {0}{4}{4}{61}{fonction\_generation\_aleatoire.c}}
+\headcommand {\beamer@subsectionpages {61}{62}}
+\headcommand {\beamer@subsectionentry {0}{4}{5}{63}{gestion\_donnee.c}}
+\headcommand {\beamer@subsectionpages {63}{65}}
+\headcommand {\beamer@subsectionentry {0}{4}{6}{66}{algo\_optimisation.c}}
+\headcommand {\beamer@subsectionpages {66}{75}}
+\headcommand {\beamer@subsectionentry {0}{4}{7}{76}{multicoeur.c}}
+\headcommand {\beamer@subsectionpages {76}{84}}
+\headcommand {\beamer@subsectionentry {0}{4}{8}{85}{fichier\_test.c}}
+\headcommand {\beamer@sectionpages {36}{105}}
+\headcommand {\beamer@subsectionpages {85}{105}}
+\headcommand {\sectionentry {5}{Programme 4 -- Test de la distance dans un carré}{106}{Programme 4 -- Test de la distance dans un carré}{0}}
+\headcommand {\beamer@subsectionpages {106}{105}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{106}{test\_densite.c}}
+\headcommand {\beamer@sectionpages {106}{126}}
+\headcommand {\beamer@subsectionpages {106}{126}}
+\headcommand {\sectionentry {6}{Programme 5 -- Analyse arduino}{127}{Programme 5 -- Analyse arduino}{0}}
+\headcommand {\beamer@subsectionpages {127}{126}}
+\headcommand {\beamer@subsectionentry {0}{6}{1}{127}{Fichier pour la carte arduino}}
+\headcommand {\beamer@subsectionpages {127}{128}}
+\headcommand {\beamer@subsectionentry {0}{6}{2}{129}{Récuperation du port série}}
+\headcommand {\beamer@subsectionpages {129}{131}}
+\headcommand {\beamer@subsectionentry {0}{6}{3}{132}{Analyse du fichier renvoyer}}
+\headcommand {\beamer@partpages {1}{137}}
+\headcommand {\beamer@subsectionpages {132}{137}}
+\headcommand {\beamer@sectionpages {127}{137}}
+\headcommand {\beamer@documentpages {137}}
+\headcommand {\gdef \inserttotalframenumber {1}}
