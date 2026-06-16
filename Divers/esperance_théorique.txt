@@ -1,0 +1,5 @@
+esperance final = 0.000515513003863016347656789140 E(X) sur 4000 calcul
+esperance_carre final = 0.000000285649160820674384181778 E(X*X) sur 4000 calcul
+variance = 0.000000019895503668804091444158 V(X) sur 4000 calcul
+
+espilon = 0.001 => v(X)/(20*0.001²)

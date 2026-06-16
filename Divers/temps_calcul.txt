@@ -1,0 +1,4 @@
+Durée : 18,497932299998865 secondes en Python
+Temps CPU : 0,166935000000000 secondes en CPU
+
+facteur entre 10 et 100
