@@ -1,0 +1,51 @@
+    \begin{frame}
+        \frametitle{Passage de la tension au nombre aléatoire}
+
+        \small
+
+        \begin{block}{1. Conversion binaire → entier}
+        \[
+        \begin{aligned}
+        \underbrace{\texttt{00111110101110111011011110000000}}_{\;1052489600} \\
+        \underbrace{\texttt{11111110110101001101101100000000}}_{\;4275362560} \\
+        \end{aligned}
+        \]
+        \end{block}
+
+        \vspace{0.3cm}
+
+        \begin{block}{2. Normalisation sur $[0,1]$}
+        \[
+        \begin{aligned}
+        \frac{1052489600}{2^{32}} &\approx 0{,}245051831 \\
+        \frac{4275362560}{2^{32}} &\approx 0{,}995435417 \\
+        \end{aligned}
+        \]
+        \end{block}
+    \end{frame}
+
+
+    \begin{frame}
+        \frametitle{Quelque chiffre}
+        \begin{center}
+            Resistance = 627 690$\Omega$
+            \\
+            Bobine = 1H
+            \\
+            Condensateur = 2.5$\cdot 10^{-8}$F
+            \\
+            Temps d'enregistrement ~1h
+            \\
+            6 099 998 point enregistrer
+            \\
+            762 496 octets de donnée
+            \\
+            190 624 nombre aléatoire
+        \end{center}
+    \end{frame}
+    $
+    \begin{cases}
+    u_0 = 55\\
+    u_{n+1} = (23 \cdot u_n + 19) \bmod 60006 
+    \end{cases}
+    $

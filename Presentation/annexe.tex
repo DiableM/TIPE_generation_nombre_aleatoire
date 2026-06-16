@@ -1,0 +1,500 @@
+\documentclass[a4paper,landscape]{article}
+\usepackage[utf8]{inputenc}      % encodage UTF-8
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{circuitikz}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{hyperref}            % pour liens cliquables
+\usepackage{titletoc}            % pour table des matières personnalisée
+
+\geometry{margin=1.5cm}
+
+% -------------------------------
+% Couleurs pour le code
+% -------------------------------
+\definecolor{codeblue}{rgb}{0.1,0.1,0.7}
+\definecolor{codegreen}{rgb}{0,0.5,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codered}{rgb}{0.7,0.1,0.1}
+
+% -------------------------------
+% Style C pour listings
+% -------------------------------
+\lstdefinestyle{CStyle}{
+    language=C,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{codeblue}\bfseries,
+    commentstyle=\color{codegreen},
+    stringstyle=\color{codered},
+    numbers=left,
+    numberstyle=\tiny\color{codegray}, 
+    stepnumber=1,
+    numbersep=5pt,
+    breaklines=true,
+    breakatwhitespace=false,
+    tabsize=2,
+    showstringspaces=false,
+    frame=single,
+    inputencoding=utf8,
+    extendedchars=true,
+    literate=
+        {é}{{\'e}}1
+        {è}{{\`e}}1
+        {à}{{\`a}}1
+        {ù}{{\`u}}1
+        {É}{{\'E}}1
+}
+
+\lstset{style=CStyle}
+
+% -------------------------------
+% Table des matières miniature
+% -------------------------------
+\setcounter{secnumdepth}{3}
+\title{Annexes}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\newpage
+    \section*{Historique des différents montage de l'Expérience}
+    \addcontentsline{toc}{section}{Historique des différents montage de l'Expérience}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %           Montage 1
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        \vspace{1cm} % Espace avant la suite du document
+        \noindent % Évite l'alinéa pour bien aligner les colonnes
+        % --- Colonne de GAUCHE : Le Circuit ---
+        \begin{minipage}{0.55\textwidth}
+            \begin{circuitikz}[european]
+                \draw (0,0) node[en amp, name=ALI, scale = 1, yscale=-1, en amp text={}]{\ctikzflipy{ALI}};
+                \coordinate (cterre1) at ($(ALI.-)+(-2,0)$);
+                \coordinate (cbruit) at ($(ALI.+)+(-2,0)$);
+                \coordinate (coscilo) at ($(ALI.out)+(2,0)$);
+                \draw (cterre1) node[ground, name=terre1, scale = 2] {};
+                \draw (ALI.-) -- (terre1);
+                \draw (ALI.+) -- (cbruit) node[pos=1, above] {Bruit électrique};
+                \draw (ALI.out) -- (coscilo);
+                \draw (coscilo) node[draw, minimum width=2cm, minimum height=2cm, anchor=west, align=left] {Oscilloscope};
+            \end{circuitikz}
+        \end{minipage}
+        \hfill % Ajoute un espace élastique entre les deux colonnes
+        % --- Colonne de DROITE : L'explication ---
+        \begin{minipage}{0.4\textwidth}
+            \textbf{Description du problème :}
+            \begin{itemize}
+                \item \textbf{Sortie} Trop faible pour être correctement observé.
+            \end{itemize}
+        \end{minipage}
+        \vspace{1cm} % Espace avant la suite du document
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %           Montage 2
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+        \noindent % Évite l'alinéa pour bien aligner les colonnes
+        % --- Colonne de GAUCHE : Le Circuit ---
+        \begin{minipage}{0.55\textwidth}
+        \begin{circuitikz}[european, scale=1, transform shape]
+            % --- 1. PREMIER BLOC (Ampli) ---
+            \node[draw, minimum width=2cm, minimum height=1.5cm] (Ampli1) at (0,0) {Ampli};
+            \coordinate (InPlus) at ($(Ampli1.west)+(0,0.4)$);
+            \coordinate (InMoins) at ($(Ampli1.west)+(0,-0.4)$);
+            \coordinate (OutAmpli) at (Ampli1.east);
+            
+            % Entrée - à la masse et Entrée + au Bruit
+            \draw (InMoins) -- ++(-0.5,0) node[ground, scale=2] {};
+            \draw (InPlus) -- ++(-0.5,0) node[left] {Bruit};
+            \node at (InPlus) [right, xshift=0.1cm] {$+$};
+            \node at (InMoins) [right, xshift=0.1cm] {$-$};
+
+            % --- 2. LIAISON DIRECTE (Pas de filtre) ---
+            \coordinate (entreALI) at ($(OutAmpli) + (1.5,0)$);
+            \draw (OutAmpli) -- (entreALI);
+            
+            % --- 3. SECOND ALI ---
+            \node [en amp, noinv input up, anchor=+, en amp text={}] (ALI2) at ($(entreALI) + (1.5,0)$) {ALI};
+            \draw (entreALI) -- (ALI2.+);
+            \draw (ALI2.-) -- ++(-0.8,0) node[ground, scale=2] {};
+
+            % --- 4. LATISPRO ---
+            \draw (ALI2.out) -- ++(0.5,0) 
+                node[draw, anchor=west, minimum width=2cm, minimum height=0.8cm] {Oscilloscope};
+        \end{circuitikz}
+        \end{minipage}
+        \hfill % Ajoute un espace élastique entre les deux colonnes
+        % --- Colonne de DROITE : L'explication ---
+        \begin{minipage}{0.4\textwidth}
+            \textbf{Description du problème :}
+            \begin{itemize}
+                \item \textbf{Sortie} La présence du 50 Hz de EDF.
+            \end{itemize}
+        \end{minipage}
+        \vspace{1cm}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %           Montage 3
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+        \noindent % Évite l'alinéa pour bien aligner les colonnes
+        % --- Colonne de GAUCHE : Le Circuit ---
+        \begin{minipage}{0.55\textwidth}
+        \begin{circuitikz}[european, scale=1, transform shape]
+                % --- 1. PREMIER BLOC (Rectangle "Ampli") ---
+            \node[draw, minimum width=2cm, minimum height=1.5cm] (Ampli1) at (0,0) {Ampli};
+            \coordinate (InPlus) at ($(Ampli1.west)+(0,0.4)$);
+            \coordinate (InMoins) at ($(Ampli1.west)+(0,-0.4)$);
+            \coordinate (OutAmpli) at (Ampli1.east);
+            
+            \draw (InMoins) -- ++(-0.5,0) node[ground, scale=2] {};
+            \draw (InPlus) -- ++(-0.5,0) node[left] {Bruit};
+            \node at (InPlus) [right, xshift=0.1cm] {$+$};
+            \node at (InMoins) [right, xshift=0.1cm] {$-$};
+
+            % --- 2. FILTRE PASSE-HAUT RC ---
+            % Le condensateur est en série, la résistance est en dérivation vers la masse
+            \draw (OutAmpli) 
+                to[C, l=$C$] ++(2.5,0) coordinate (entreRC) % Condensateur de liaison
+                to[R, l=$R$] ++(0,-2) node[ground, scale=2] {}; % Résistance à la masse
+
+            % --- 3. SECOND ALI (+ en haut) ---
+            \node [en amp, noinv input up, anchor=+, en amp text={}] (ALI2) at ($(entreRC) + (2.5,0)$) {ALI};
+            \draw (entreRC) -- (ALI2.+);
+            \draw (ALI2.-) -- ++(-0.8,0) node[ground, scale=2] {};
+
+            \draw (ALI2.out) -- ++(0.5,0) 
+                node[draw, anchor=west, minimum width=1.5cm, minimum height=0.8cm] {Oscilloscope};
+        \end{circuitikz}
+        \end{minipage}
+        \hfill % Ajoute un espace élastique entre les deux colonnes
+        % --- Colonne de DROITE : L'explication ---
+        \begin{minipage}{0.4\textwidth}
+            \textbf{Description du problème :}
+            \begin{itemize}
+                \item \textbf{Sortie} Signal presque constant car la fréquence max de notre signal dépasse celle de l'ALI.
+            \end{itemize}
+        \end{minipage}
+        \vspace{1cm}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %           Montage 4
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+        \noindent % Évite l'alinéa pour bien aligner les colonnes
+        % --- Colonne de GAUCHE : Le Circuit ---
+        \begin{minipage}{0.55\textwidth}
+            \begin{circuitikz}[european, scale=1, transform shape, longL/.style = {cute inductor, inductors/scale=1, inductors/width=1, inductors/coils=7}]
+                % --- 1. PREMIER BLOC (Rectangle "Ampli") ---
+                \node[draw, minimum width=2cm, minimum height=1.5cm] (Ampli1) at (0,0) {Ampli};
+                \coordinate (InPlus) at ($(Ampli1.west)+(0,0.4)$);
+                \coordinate (InMoins) at ($(Ampli1.west)+(0,-0.4)$);
+                \coordinate (OutAmpli) at (Ampli1.east);
+                \draw (InMoins) -- ++(-0.5,0) node[ground, scale=2] {};
+                \draw (InPlus) -- ++(-0.5,0) node[left] {Bruit};
+                \node at (InPlus) [right, xshift=0.1cm] {$+$};
+                \node at (InMoins) [right, xshift=0.1cm] {$-$};
+                % --- 2. FILTRE PASSE-BANDE ---
+                \draw (OutAmpli) 
+                    to[C, l=$C$] ++(2,0) 
+                    to[longL, l=$L$] ++(2,0) coordinate (entreLR)
+                    to[R, l=$R$] ++(0,-2) node[ground, scale=2] {};
+                
+                % --- 3. SECOND ALI (+ en haut) ---
+                \node [en amp, noinv input up, anchor=+, en amp text={}] (ALI2) at ($(entreLR) + (2.5,0)$) {ALI};
+                \draw (entreLR) -- (ALI2.+);
+                \draw (ALI2.-) -- ++(-0.8,0) node[ground, scale=2] {};
+                \draw (ALI2.out) -- ++(0.5,0) 
+                    node[draw, anchor=west, minimum width=1.5cm, minimum height=0.8cm] {Oscilloscope};
+            \end{circuitikz}
+        \end{minipage}
+        \hfill % Ajoute un espace élastique entre les deux colonnes
+        % --- Colonne de DROITE : L'explication ---
+        \begin{minipage}{0.4\textwidth}
+            \textbf{Description du problème :}
+            \begin{itemize}
+                \item \textbf{Sortie} Le signal ne passe pas autant de temps en haut et bas, car les différents composant rajoute un offset, donc 0 n'est plus la moyenne du signal.
+            \end{itemize}
+        \end{minipage}
+        \vspace{1cm}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %           Montage 5
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+        \noindent % Évite l'alinéa pour bien aligner les colonnes
+        % --- Colonne de GAUCHE : Le Circuit ---
+        \begin{minipage}{0.55\textwidth}
+            \begin{circuitikz}[european, scale=1, transform shape, longL/.style = {cute inductor, inductors/scale=1, inductors/width=1, inductors/coils=7}]
+                % --- 1. PREMIER BLOC (Rectangle "Ampli") ---
+                \node[draw, minimum width=2cm, minimum height=1.5cm] (Ampli1) at (0,0) {Ampli};
+                \coordinate (InPlus) at ($(Ampli1.west)+(0,0.4)$);
+                \coordinate (InMoins) at ($(Ampli1.west)+(0,-0.4)$);
+                \coordinate (OutAmpli) at (Ampli1.east);
+                \draw (InMoins) -- ++(-0.5,0) node[ground, scale=2] {};
+                \draw (InPlus) -- ++(-0.5,0) node[left] {Bruit};
+                \node at (InPlus) [right, xshift=0.1cm] {$+$};
+                \node at (InMoins) [right, xshift=0.1cm] {$-$};
+                % --- 2. FILTRE PASSE-BANDE ---
+                \draw (OutAmpli) 
+                    to[C, l=$C$] ++(2,0) 
+                    to[longL, l=$L$] ++(2,0) coordinate (entreLR)
+                    to[R, l=$R$] ++(0,-2) node[ground, scale=2] {};
+                
+                % --- 3. SECOND ALI (+ en haut) ---
+                \node [en amp, noinv input up, anchor=+, en amp text={}] (ALI2) at ($(entreLR) + (2.5,0)$) {ALI};
+                \draw (entreLR) -- (ALI2.+);
+                \draw (ALI2.-) -- ++(-0.8,0) node[left] {Offset};
+                % --- 4. ARDUINO ---
+                \draw (ALI2.out) -- ++(0.5,0) 
+                    node[draw, anchor=west, minimum width=1.5cm, minimum height=0.8cm] {Latispro};
+            \end{circuitikz}
+        \end{minipage}
+        \hfill % Ajoute un espace élastique entre les deux colonnes
+        % --- Colonne de DROITE : L'explication ---
+        \begin{minipage}{0.4\textwidth}
+            \textbf{Description du problème :}
+            \begin{itemize}
+                \item \textbf{Sortie} Aucun problème sur la sortie.
+                \item \textbf{Vitesse d'acquisition} Vitesse d'acquisition beaucoup trop lente 3 600 000 points en 1h soit 125 000 nombres aléatoire. L'échantillon ne permet pas de test statistique viable.
+            \end{itemize}
+        \end{minipage}
+        \vspace{1cm}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %           Montage 6
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+        \noindent % Évite l'alinéa pour bien aligner les colonnes
+        % --- Colonne de GAUCHE : Le Circuit ---
+        \begin{minipage}{0.55\textwidth}
+            \begin{circuitikz}[european, scale=1, transform shape, longL/.style = {cute inductor, inductors/scale=1, inductors/width=1, inductors/coils=7}]
+                % --- 1. PREMIER BLOC (Rectangle "Ampli") ---
+                \node[draw, minimum width=2cm, minimum height=1.5cm] (Ampli1) at (0,0) {Ampli};
+                \coordinate (InPlus) at ($(Ampli1.west)+(0,0.4)$);
+                \coordinate (InMoins) at ($(Ampli1.west)+(0,-0.4)$);
+                \coordinate (OutAmpli) at (Ampli1.east);
+                \draw (InMoins) -- ++(-0.5,0) node[ground, scale=2] {};
+                \draw (InPlus) -- ++(-0.5,0) node[left] {Bruit};
+                \node at (InPlus) [right, xshift=0.1cm] {$+$};
+                \node at (InMoins) [right, xshift=0.1cm] {$-$};
+                % --- 2. FILTRE PASSE-BANDE ---
+                \draw (OutAmpli) 
+                    to[C, l=$C$] ++(2,0) 
+                    to[longL, l=$L$] ++(2,0) coordinate (entreLR)
+                    to[R, l=$R$] ++(0,-2) node[ground, scale=2] {};
+                
+                % --- 3. SECOND ALI (+ en haut) ---
+                \node [en amp, noinv input up, anchor=+, en amp text={}] (ALI2) at ($(entreLR) + (2.5,0)$) {ALI};
+                \draw (entreLR) -- (ALI2.+);
+                \draw (ALI2.-) -- ++(-0.8,0) node[left] {Offset};
+                % --- 4. ARDUINO ---
+                \draw (ALI2.out) -- ++(0.5,0) 
+                    node[draw, anchor=west, minimum width=1.5cm, minimum height=0.8cm] {Arduino};
+            \end{circuitikz}
+        \end{minipage}
+        \hfill % Ajoute un espace élastique entre les deux colonnes
+        % --- Colonne de DROITE : L'explication ---
+        \begin{minipage}{0.4\textwidth}
+            \textbf{Description du problème :}
+            \begin{itemize}
+                \item \textbf{Sortie} La tension de sortie est parfois négative, or arduino ne meusure que des tensions entre 0V et 5V.
+                \item \textbf{Analyse} L'ALI peut être realisé de manière informatique, et pose parfois des problèmes pendant l'acquisition.
+            \end{itemize}
+        \end{minipage}
+        \vspace{1cm}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %           Montage 7
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+        \noindent % Évite l'alinéa pour bien aligner les colonnes
+        % --- Colonne de GAUCHE : Le Circuit ---
+        \begin{minipage}{0.55\textwidth}
+            \begin{circuitikz}[european, scale=1, transform shape, longL/.style = {cute inductor, inductors/scale=1, inductors/width=1, inductors/coils=7}]
+                % --- 1. PREMIER BLOC (Rectangle "Ampli") ---
+                \node[draw, minimum width=2cm, minimum height=1.5cm] (Ampli1) at (0,0) {Ampli};
+                \coordinate (InPlus) at ($(Ampli1.west)+(0,0.4)$);
+                \coordinate (InMoins) at ($(Ampli1.west)+(0,-0.4)$);
+                \coordinate (OutAmpli) at (Ampli1.east);
+                \draw (InMoins) -- ++(-0.5,0) node[ground, scale=2] {};
+                \draw (InPlus) -- ++(-0.5,0) node[left] {Bruit};
+                \node at (InPlus) [right, xshift=0.1cm] {$+$};
+                \node at (InMoins) [right, xshift=0.1cm] {$-$};
+                % --- 2. FILTRE PASSE-HAUT ---
+                \draw (OutAmpli) to[C, l=$C$] ++(2,0) coordinate (entreHP) to[R, l=$R$] ++(0,-2) node[ground, scale=2] {};
+                % --- 3. ALI
+                \draw (entreHP) to[R, l=$R1$] ++(4,0) coordinate (FinR1);
+                %\coordinate (EntreR1ALI) at ($(entreHP)+(2, 0)$);
+                \node [en amp, noinv input up, anchor=+, en amp text={}] (ALI2) at ($(FinR1) + (1,0)$) {ALI};
+                \draw (FinR1) -- (ALI2.+);
+                \draw (FinR1)++(-1, 0) to[R, l=$R2$] ++(0,-2) node[below] {2.5V};
+                \draw ($(ALI2.-)+(-0.5,-1.5)$) to[R, l=$R3$] ++(0,-2) node[ground, scale=2] {};
+                \coordinate (debutR3) at ($(ALI2.-)+(-0.5,-1.5)$);
+                \draw ($(ALI2.-)+(-0.5,0)$) -- ($(ALI2.-)+(-0.5,-1.5)$);
+                \draw (ALI2.-) -- ($(ALI2.-)+(-0.5,0)$);
+                \draw ($(debutR3)+(1,0)$) to[R, l=$R4$] ++(2,0) coordinate (FinR4);
+                \draw (debutR3) -- ($(debutR3)+(1,0)$);
+                \draw (ALI2.out) -- (ALI2.out -| FinR4) -- ++(0.5,0);
+                \draw (FinR4) -- ($(FinR4)+(0.5,0)$);
+                \draw ($(FinR4)+(0.5,0)$) -- ($(ALI2.out -| FinR4)+(0.5,0)$);
+                \coordinate (Finadd) at ($(ALI2.out -| FinR4)+(0.5,0)$);
+                \draw (Finadd) -- ++(0.5,0) node[draw, anchor=west, minimum width=1.5cm, minimum height=0.8cm] {Arduino};
+            \end{circuitikz}
+        \end{minipage}
+        \hfill % Ajoute un espace élastique entre les deux colonnes
+        % --- Colonne de DROITE : L'explication ---
+        \begin{minipage}{0.4\textwidth}
+            \textbf{Description du problème :}
+            \begin{itemize}
+                \item \textbf{Sortie} Signal de sortie périodique, a cause du circuit d'addition.
+            \end{itemize}
+        \end{minipage}
+        \vspace{1cm}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %           Montage 8
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+        \noindent % Évite l'alinéa pour bien aligner les colonnes
+        % --- Colonne de GAUCHE : Le Circuit ---
+        \begin{minipage}{0.55\textwidth}
+            \begin{circuitikz}[european, scale=1, transform shape, longL/.style = {cute inductor, inductors/scale=1, inductors/width=1, inductors/coils=7}]
+                \node[draw, minimum width=2cm, minimum height=1.5cm] (Ampli1) at (0,0) {Ampli};
+                \coordinate (InPlus) at ($(Ampli1.west)+(0,0.4)$);
+                \coordinate (InMoins) at ($(Ampli1.west)+(0,-0.4)$);
+                \coordinate (OutAmpli) at (Ampli1.east);
+                \draw (InMoins) -- ++(-0.5,0) node[ground, scale=2] {};
+                \draw (InPlus) -- ++(-0.5,0) node[left] {Bruit};
+                \node at (InPlus) [right, xshift=0.1cm] {$+$};
+                \node at (InMoins) [right, xshift=0.1cm] {$-$};
+                \draw (OutAmpli) to[C, l=$C$] ++(2,0) coordinate (entreHP) to[R, l=$R$] ++(0,-2) coordinate (FinRC);
+                \node[draw, minimum width=2cm, minimum height=1.5cm] (Arduino) at ($(entreHP)+(4,-0.4)$) {Arduino};
+                \coordinate (ArduinoInPlus) at ($(Arduino.west)+(0,0.4)$);
+                \coordinate (ArduinoInMoins) at ($(Arduino.west)+(0,-0.4)$);
+                \coordinate (ArduinoOutAmpli) at (Arduino.east);
+                \node at (ArduinoInPlus) [right, xshift=0.1cm] {$+$};
+                \node at (ArduinoInMoins) [right, xshift=0.1cm] {$-$};
+                \draw ($(FinRC)+(2,0)$) to[V, v=$2.5V$] (FinRC);
+                %\coordinate (Finadd) at ($(ALI2.out -| FinR4)+(0.5,0)$);
+                \draw (ArduinoInMoins) -- ($(ArduinoInMoins -| FinRC)+(2,0)$);
+                \draw ($(ArduinoInMoins -| FinRC)+(2,0)$) -- ($(FinRC)+(2,0)$);
+                \draw (entreHP) -- (ArduinoInPlus);
+                \node[ground, scale=2] at ($(FinRC)$) {};
+            \end{circuitikz}
+        \end{minipage}
+        \hfill % Ajoute un espace élastique entre les deux colonnes
+        % --- Colonne de DROITE : L'explication ---
+        \begin{minipage}{0.4\textwidth}
+            \textbf{Circuit Final :}
+            \begin{itemize}
+                \item \textbf{Résistance} 3300 $\Omega$.
+                \item \textbf{Condensateur} 500 nF.
+                \item \textbf{Donnée} 31 000 000 Millions de points en 2h, sur 2 jours différents.
+            \end{itemize}
+        \end{minipage}
+        \vspace{1cm}
+
+\newpage
+    % -------------------------------
+    % Programme 1
+    % -------------------------------
+    \section*{Programme 1 -- Générateur aléatoire}
+    \addcontentsline{toc}{section}{Programme 1 -- Générateur aléatoire}
+
+    \subsection*{generateur\_aleatoire.h}
+    \addcontentsline{toc}{subsection}{generateur\_aleatoire.h}
+    \lstinputlisting{../Programme_generation_aleatoire_C/generateur_aleatoire.h}
+    \newpage
+
+
+    \subsection*{generateur\_aleatoire.c}
+    \addcontentsline{toc}{subsection}{generateur\_aleatoire.c}
+    \lstinputlisting{../Programme_generation_aleatoire_C/generateur_aleatoire.c}
+    \newpage
+
+    % -------------------------------
+    % Programme 2
+    % -------------------------------
+    \section*{Programme 2 -- Marche aléatoire}
+    \addcontentsline{toc}{section}{Programme 2 -- Marche aléatoire}
+
+    \subsection*{marche\_aleatoire.c}
+    \addcontentsline{toc}{subsection}{marche\_aleatoire.c}
+    \lstinputlisting{../Marche_aleatoire/marche_aleatoire.c}
+    \newpage
+    
+    % -------------------------------
+    % Programme 3
+    % -------------------------------
+    \section*{Programme 3 -- Trouver les coefficients d'un générateur congruentiel}
+    \addcontentsline{toc}{section}{Programme 3 -- Trouver les coefficients d'un générateur congruentiel}
+
+    \subsection*{engine.h}
+    \addcontentsline{toc}{subsection}{engine.h}
+    \lstinputlisting{../Programme_C_optimisation/src/engine.h}
+    \newpage
+
+    \subsection*{main.c}
+    \addcontentsline{toc}{subsection}{main.c}
+    \lstinputlisting{../Programme_C_optimisation/src/main.c}
+    \newpage
+
+    \subsection*{fonction\_generique.c}
+    \addcontentsline{toc}{subsection}{fonction\_generique.c}
+    \lstinputlisting{../Programme_C_optimisation/src/fonction_generique.c}
+    \newpage
+
+    \subsection*{fonction\_generation\_aleatoire.c}
+    \addcontentsline{toc}{subsection}{fonction\_generation\_aleatoire.c}
+    \lstinputlisting{../Programme_C_optimisation/src/fonction_generation_aleatoire.c}
+    \newpage
+
+    \subsection*{gestion\_donnee.c}
+    \addcontentsline{toc}{subsection}{gestion\_donnee.c}
+    \lstinputlisting{../Programme_C_optimisation/src/gestion_donnee.c}
+    \newpage
+
+    \subsection*{algo\_optimisation.c}
+    \addcontentsline{toc}{subsection}{algo\_optimisation.c}
+    \lstinputlisting{../Programme_C_optimisation/src/algo_optimisation.c}
+    \newpage
+
+    \subsection*{multicoeur.c}
+    \addcontentsline{toc}{subsection}{multicoeur.c}
+    \lstinputlisting{../Programme_C_optimisation/src/multicoeur.c}
+    \newpage
+
+    \subsection*{fichier\_test.c}
+    \addcontentsline{toc}{subsection}{fichier\_test.c}
+    \lstinputlisting{../Programme_C_optimisation/src/fichier_test.c}
+    \newpage
+
+    % -------------------------------
+    % Programme 4
+    % -------------------------------
+    \section*{Programme 4 -- Test de la distance dans un carré}
+    \addcontentsline{toc}{section}{Programme 4 -- Test de la distance dans un carré}
+
+    \subsection*{test\_densite.c}
+    \addcontentsline{toc}{subsection}{test\_densite.c}
+    \lstinputlisting{../Programme_test_statistique/test_densite.c}
+    \newpage
+
+    % -------------------------------
+    % Programme 5
+    % -------------------------------
+    \section*{Programme 5 -- Analyse arduino}
+    \addcontentsline{toc}{section}{Programme 5 -- Analyse arduino}
+
+    \subsection*{Fichier pour la carte arduino}
+    \addcontentsline{toc}{subsection}{Fichier pour la carte arduino}
+    \lstinputlisting{../Programme_experience/recup_pile_test/recup_pile_test.ino}
+    \newpage
+
+    \subsection*{Récuperation du port série}
+    \addcontentsline{toc}{subsection}{Récuperation du port série}
+    \lstinputlisting{../Programme_experience/recup_port_serie.py}
+    \newpage
+
+    \subsection*{Analyse du fichier renvoyer}
+    \addcontentsline{toc}{subsection}{Analyse du fichier renvoyer}
+    \lstinputlisting{../Programme_experience/gneration_aleatoire_physique_arduino.py}
+    \newpage
+
+\end{document}

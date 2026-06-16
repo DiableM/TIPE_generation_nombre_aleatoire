@@ -1,0 +1,593 @@
+\pdfminorversion=7
+\pdfcompresslevel=9
+\pdfobjcompresslevel=3
+\documentclass[aspectratio=43]{beamer}
+\usepackage{tikz}
+\usepackage{pgf}
+\usepackage{circuitikz}
+\usepackage{pdfpages}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[
+    ruled, 
+    vlined, 
+    french]{algorithm2e}
+\SetKwInput{KwInput}{Entrée}
+\SetKwInput{KwOutput}{Sortie}
+\SetKw{KwTo}{à}
+\SetKw{KwRet}{retourner}
+\SetKwFor{While}{Tant que}{faire}{fin tant que}
+\SetKwIF{If}{ElseIf}{Else}{Si}{alors}{Sinon si}{Sinon}{fin si}
+\SetKwFor{For}{Pour}{faire}{fin pour}
+\SetKwFor{ForEach}{Pour chaque}{faire}{fin pour}
+\usetikzlibrary{babel}
+\usetheme{Antibes}
+\usetikzlibrary{calc}
+\newcommand{\cheminImages}{Figure/Image_presentation/}
+\makeatletter
+\newcommand{\debutAnnexes}{\appendix\addtocontours{toc}{\string\begin{KeepFromToc}}}
+\newcommand{\finAnnexes}{\addtocontours{toc}{\string\end{KeepFromToc}}}
+\makeatother
+
+
+\title{Étude et implémentation de générateurs aléatoires physiques et informatiques}
+\author{Mathieu SOUCAZE-SOUDAT\\Candidat n° 39842\\Travail de groupe}
+\date{}
+
+\setbeamertemplate{navigation symbols}{\color{black} \insertframenumber/\inserttotalframenumber}
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+    \begin{center}
+        \frametitle{Table des matières}
+        \tableofcontents
+    \end {center}
+\end{frame}
+
+%Marche aleatoire
+\section{Introduction}
+    \subsection{Problème lié à un mauvais générateur}
+    \begin{frame}
+        \center
+        \Huge
+        Visualiser le comportement d'un générateur aléatoire
+    \end{frame}
+    \begin{frame}
+        \frametitle{Principe de la marche aléatoire}
+        \center
+        On utilise un générateur aléatoire pour engendrer $\alpha$.
+        \begin{minipage}{0.5\textwidth}
+            \SetAlFnt{\tiny}
+            \SetAlCapFnt{\tiny}
+            \SetAlCapNameFnt{\tiny}
+            \begin{algorithm}[H]
+                \tiny
+                \caption{\tiny Simulation de mouvement aléatoire} 
+
+                \SetKwData{Temps}{temps}
+                \SetKwData{Tf}{temps\_final}
+                \SetKwData{Dt}{dt}
+                \SetKwData{V}{v}
+                \SetKwData{Ens}{T}
+                \SetKwInOut{Input}{Entrée}
+
+                \Input{un ensemble de points \Ens, vitesse \V, pas de temps \Dt, \Tf}
+                \BlankLine
+
+                \Temps $\leftarrow$ 0\;
+                \While{\Temps $<$ \Tf}{
+                    \ForEach{point $P$ dans \Ens}{
+                        Choisir $\alpha \in [0, 2\pi]$\;
+                        Déplacer $P$ de la distance \V dans la direction $\alpha$\;
+                    }
+                    \Temps $\leftarrow$ \Temps + \Dt\;
+                }
+                \end{algorithm}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.45\textwidth}
+            \center
+            \begin{tikzpicture}
+                \filldraw (0, 0) circle (0.1);
+                \draw[->] (0,0) -- (1,1);
+                \node at (0.4, 0.85) {$\overrightarrow{v}$};
+                \draw (0.5,0) arc[start angle=0, end angle=45, radius=0.5];
+                \node at (0.7, 0.25) {$\alpha$};
+                \draw[dashed] (-1, 0) -- (2, 0);
+        \end{tikzpicture}
+        \end{minipage}
+    \end{frame}
+    \begin{frame}
+        \frametitle{Générateurs utilisés}
+        \begin{minipage}{0.5\textwidth}
+            \center
+            \framebox{
+                \parbox[c][3cm][c]{6cm}{
+                    \centering
+                    \textbf{\large Congruentiel}
+
+                    \[
+                    \begin{cases}
+                    u_0 = 55\\
+                    u_{n+1} = (23 \cdot u_n + 19) \bmod 60006
+                    \end{cases}
+                    \]
+                }
+            }
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.3\textwidth}
+            \framebox{
+                \parbox[c][3cm][c]{3cm}{
+                    \centering
+                    \textbf{\large Physique}
+                    \\[0.5cm]
+                    Méthode qui exploite le bruit électrique
+                }
+            }
+        \end{minipage}
+    \end{frame}
+    \begin{frame}
+        \frametitle{Marches aléatoires}
+        \begin{minipage}{0.5\textwidth}
+            Congruentiel
+            \includegraphics[scale=0.25]{\cheminImages marche_aleatoire_congruentiel1.png}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.45\textwidth}
+            Physique
+            \includegraphics[scale=0.25]{\cheminImages marche_aleatoire_physique1.png}
+        \end{minipage}
+    \end{frame}
+    \begin{frame}
+        \frametitle{Marches aléatoires}
+        \begin{minipage}{0.5\textwidth}
+            Congruentiel
+            \includegraphics[scale=0.25]{\cheminImages marche_aleatoire_congruentiel2.png}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.45\textwidth}
+            Physique
+            \includegraphics[scale=0.25]{\cheminImages marche_aleatoire_physique2.png}
+        \end{minipage}
+    \end{frame}
+    \begin{frame}
+        \frametitle{Marches aléatoires}
+        \begin{minipage}{0.5\textwidth}
+            Congruentiel
+            \includegraphics[scale=0.25]{\cheminImages marche_aleatoire_congruentiel3.png}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.45\textwidth}
+            Physique
+            \includegraphics[scale=0.25]{\cheminImages marche_aleatoire_physique3.png}
+        \end{minipage}
+    \end{frame}
+    \begin{frame}
+        \frametitle{Marches aléatoires}
+        \begin{minipage}{0.5\textwidth}
+            Congruentiel
+            \includegraphics[scale=0.25]{\cheminImages marche_aleatoire_congruentiel4.png}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.45\textwidth}
+            Physique
+            \includegraphics[scale=0.25]{\cheminImages marche_aleatoire_physique4.png}
+        \end{minipage}
+    \end{frame}
+
+%Generateur Congruentiel
+
+\section{Générateur congruentiel}
+    \begin{frame}
+        \center
+        \Huge
+        Générateur Congruentiel
+    \end{frame}
+    \subsection{Définition}
+    \begin{frame}
+        \frametitle{Définition}
+        \begin{center}
+            Soit $a, b, q \in \mathbb{N}$, \, 
+                $
+                \begin{cases}
+                u_0 \in \mathbb{N}\\
+                u_{n+1} = (a \cdot u_n + b) \bmod q 
+                \end{cases}
+                $
+            \vspace{1cm}
+            \\
+            Exemples :
+            \begin{itemize}
+                \item Marsaglia : $a = \text{69 069,} \ b = 0, \ q = 2^{32}$
+                \item Knuth et Lewis : $a = \text{1 664 525,} \ b = \text{1 013 904 223,} \ q = 2^{32}$
+            \end{itemize}
+        \end{center}
+    \end{frame}
+    \subsection{Méthode pour prédire}
+    \begin{frame}
+        \frametitle{Schéma du réseau}
+        \begin{center}
+        \begin{tikzpicture}
+            \draw[very thick](-2,-1) circle (1);
+            \node[draw, very thick, rectangle, minimum width=2cm, minimum height=1.5cm] at (1.5,-1) {mod q};
+            \draw[very thick] (-2, 0) -- (-2, 1);
+            \node at (-2, 1.5) {b};
+            \draw[very thick] (-3, -1) -- (-5, -1);
+            \node at (-5.5, -1) {$u_n$};
+            \node at (-4, -0.5) {a};
+            \draw[very thick] (-1, -1) -- (0.5, -1);
+            \draw[very thick] (2.5, -1) -- (4, -1);
+            \node at (4.5, -1) {$u_{n+1}$};
+        \end{tikzpicture}
+        \end{center}
+    \end{frame}
+    \begin{frame}
+        \frametitle{Fonction coût}
+        \center
+        \LARGE
+        $Y_{\text{réseaux}}(X) = (a \cdot  X + b)$  mod q\\
+        \vspace{1cm}
+        \[f_{\text{coût}} = \sum_{k=1}^{n} (Y_{\text{réseaux}}(X_k) - Y_{\text{réel}})^{2}\]
+    \end{frame}
+    \begin{frame}
+        \frametitle{Descente de gradient}
+        \begin{center}
+            \includegraphics[scale=0.5]{\cheminImages descente_gradient.png}
+            \\
+            \tiny
+            Illustation uniquement
+        \end{center}
+    \end{frame}
+    \begin{frame}
+        \frametitle{Illustations dans notre cas}
+        \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{\cheminImages volume.png}
+    \end{minipage}% <-- CE POURCENTAGE EST CRUCIAL (il supprime l'espace parasite)
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[scale = 0.35]{\cheminImages surface_chemin.png}
+    \end{minipage}
+    \end{frame}
+    \begin{frame}
+        \frametitle{Réduction d'intervalles}
+        \begin{minipage}{0.5\textwidth}
+            \center
+            Intervalle 1\\
+            \includegraphics[scale=0.25]{\cheminImages intervalle_phase1.png}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.45\textwidth}
+            \center
+            Intervalle 2\\
+            \includegraphics[scale=0.25]{\cheminImages intervalle_phase2.png}
+        \end{minipage}
+    \end{frame}
+    \begin{frame}
+        \frametitle{Illustration de la réduction d'intervalles}
+        \begin{center}
+            \begin{tikzpicture}
+                \node[anchor=west, inner sep=0] (im1) at (0,0) {
+                    \includegraphics[width=5cm]{\cheminImages intervalle_reduction1.png}
+                };
+                \node[anchor=west, inner sep=0, draw=darkgray, line width=1pt] (im2) at (6,0) {
+                    \includegraphics[width=5cm]{\cheminImages intervalle_reduction2.png}
+                };
+                \node[draw=red, line width=0.2pt, minimum size=0.15cm, inner sep=0] (cadre) at (2.175, -0.667) {};
+                \draw[red, dashed, thin] (cadre.north east) -- (im2.north west);
+                \draw[red, dashed, thin] (cadre.south east) -- (im2.south west);
+            \end{tikzpicture}
+        \end{center}
+    \end{frame}
+    \begin{frame}
+        \frametitle{Quelques résultats}
+        \begin{center}
+            Après environ 20 réductions d'intervalles, soit 4h de calcul, \newline
+            pour le générateur a = 3 580 131, b = 2 766 521, q = 9 854 547.
+            \\\vspace{1cm}
+            99.94\% de prédictions correctes pour un intervalle de taille 21 000,\newline
+             soit 0.213\% de l'intervalle total. \\
+            \ \\
+            9.52\% de prédictions correctes pour un intervalle de taille 2 000, \newline 
+            soit 0.0203\% de l'intervalle total.
+        \end{center}
+    \end{frame}
+
+%Expérience
+
+\section{Générateur physique}
+    \begin{frame}
+        \center
+        \Huge
+        Générateur physique
+    \end{frame}
+    \subsection{Théorie}
+        \begin{frame}
+            \frametitle{Schéma électrique théorique}
+            \begin{center}
+                \includegraphics[scale = 2]{\cheminImages circuit_explication.jpg}
+            \end{center}
+        \end{frame}
+    \subsection{Montage}
+    \begin{frame}
+        \frametitle{Montage réel}
+        \begin{center}
+            \begin{circuitikz}[european, scale=1, transform shape, longL/.style = {cute inductor, inductors/scale=1, inductors/width=1, inductors/coils=7}]
+                \node[draw, minimum width=2cm, minimum height=1.5cm] (Ampli1) at (0,0) {Ampli};
+                \coordinate (InPlus) at ($(Ampli1.west)+(0,0.4)$);
+                \coordinate (InMoins) at ($(Ampli1.west)+(0,-0.4)$);
+                \coordinate (OutAmpli) at (Ampli1.east);
+                \draw (InMoins) -- ++(-0.5,0) node[ground, scale=2] {};
+                \draw (InPlus) -- ++(-0.5,0) node[left] {Antenne};
+                \node at (InPlus) [right, xshift=0.1cm] {$+$};
+                \node at (InMoins) [right, xshift=0.1cm] {$-$};
+                \draw (OutAmpli) to[C, l=$C$] ++(2,0) coordinate (entreHP) to[R, l=$R$] ++(0,-2) coordinate (FinRC);
+                \node[draw, minimum width=2cm, minimum height=1.5cm] (Arduino) at ($(entreHP)+(4,-0.4)$) {Arduino};
+                \coordinate (ArduinoInPlus) at ($(Arduino.west)+(0,0.4)$);
+                \coordinate (ArduinoInMoins) at ($(Arduino.west)+(0,-0.4)$);
+                \coordinate (ArduinoOutAmpli) at (Arduino.east);
+                \node at (ArduinoInPlus) [right, xshift=0.1cm] {$+$};
+                \node at (ArduinoInMoins) [right, xshift=0.1cm] {$-$};
+                \draw ($(FinRC)+(2,0)$) to[V, v=$2.5V$] (FinRC);
+                %\coordinate (Finadd) at ($(ALI2.out -| FinR4)+(0.5,0)$);
+                \draw (ArduinoInMoins) -- ($(ArduinoInMoins -| FinRC)+(2,0)$);
+                \draw ($(ArduinoInMoins -| FinRC)+(2,0)$) -- ($(FinRC)+(2,0)$);
+                \draw (entreHP) -- (ArduinoInPlus);
+                \node[ground, scale=2] at ($(FinRC)$) {};
+            \end{circuitikz}
+        \end{center}
+    \end{frame}
+    \begin{frame}
+        \frametitle{Réalisation expérimentale}
+        \begin{minipage}{0.5\textwidth}
+            \includegraphics[scale=0.1]{\cheminImages montage1.jpg}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.45\textwidth}
+            \includegraphics[scale=0.1]{\cheminImages montage2.jpg}
+        \end{minipage}
+    \end{frame}
+    \begin{frame}
+        \frametitle{Démonstration de l'impact du câble}
+        \begin{minipage}{0.5\textwidth}
+            \centering
+            Montage de base
+            \includegraphics[scale=0.1]{\cheminImages bruit_rien.jpg}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.45\textwidth}
+            \centering
+            Montage où l'on touche le câble avec la main
+            \includegraphics[scale=0.1]{\cheminImages bruit_main.jpg}
+        \end{minipage}
+    \end{frame}
+    \subsection{Résultats}
+    \begin{frame}
+        \frametitle{Résultats}
+        \includegraphics[scale=0.6]{\cheminImages tension_experience1.png}
+    \end{frame}
+
+    \subsection{Interprétation des résultats}
+    \begin{frame}
+        \frametitle{Passage de la tension aux nombres aléatoires}
+        \begin{minipage}{0.5\textwidth}
+            \includegraphics[scale=0.5]{\cheminImages tension_experience1.png}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.28\textwidth}
+            0100011010011110
+            \\1111010101111010
+            \\1101011010100000
+            \\1001111100111100
+            \\1110010111110100
+            \\1100010011101110
+            \\1010101000000100
+            \\0011000010101110
+        \end{minipage}
+    \end{frame}
+    \begin{frame}
+        \frametitle{Passage de la tension aux nombres aléatoires}
+        \small
+        \begin{block}{1. Conversion binaire → entier}
+        \[
+        \begin{aligned}
+        \underbrace{\texttt{00111110101110111011011110000000}}_{\;1052489600} \\
+        \underbrace{\texttt{11111110110101001101101100000000}}_{\;4275362560} \\
+        \end{aligned}
+        \]
+        \end{block}
+        \vspace{0.3cm}
+        \begin{block}{2. Normalisation sur $[0,1]$}
+        \[
+        \begin{aligned}
+        \frac{1052489600}{2^{32}} &\approx 0{,}245051831 \\
+        \frac{4275362560}{2^{32}} &\approx 0{,}995435417 \\
+        \end{aligned}
+        \]
+        \end{block}
+    \end{frame}
+
+%test l'aleatoire
+\section{Tests statistiques}
+    \begin{frame}
+        \center
+        \Huge
+        Tests statistiques
+    \end{frame}
+    \subsection{Distribution}
+    \begin{frame}
+        \frametitle{Distribution}
+        \begin{minipage}{0.5\textwidth}
+            \includegraphics[scale=0.35]{\cheminImages distribution1.png}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.45\textwidth}
+            \includegraphics[scale=0.35]{\cheminImages distribution2.png}
+        \end{minipage}
+    \end{frame}
+    \subsection{Test de la distance entre deux points d'un carré}
+    \begin{frame}
+        \frametitle{Principe}
+        \begin{minipage}{0.5\textwidth}
+            \SetAlFnt{\tiny}
+            \SetAlCapFnt{\tiny}
+            \SetAlCapNameFnt{\tiny}
+            \begin{algorithm}[H]
+                \tiny
+                \caption{\tiny Test de la densité dans un carré} 
+
+                \SetKwData{Lnba}{liste de nombres aléatoires}
+                \SetKwData{n}{n}
+                \SetKwInOut{Input}{Entrée}
+                \SetKwInOut{Output}{Sortie}
+
+                \Input{\Lnba, un entier \n}
+                \BlankLine
+
+                L $\leftarrow$ \n points choisit aléatoirement dans un carré\\
+                L\_dits $\leftarrow$ []\\
+                \ForEach{point $P$ dans L}{
+                    dist $\leftarrow$ toute les distances entre P et les autres points;\\
+                    L\_dist $\leftarrow$ L\_dist + dist;
+                }
+                nb\_inter $\leftarrow$ compte le nombre de valeur de L\_dist par subdivision;\\
+                f\_répartition $\leftarrow$ approche la fonction de répartition avec nb\_inter;\\
+                f\_densité $\leftarrow$ approche la fonction de densité avec f\_répartition;\\
+                \Output{distance entre f\_densité et la densité théorique}
+                \end{algorithm}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.45\textwidth}
+            \center
+            \begin{tikzpicture}
+                \def\taille{2.8}
+                \draw (-\taille, -\taille) -- (\taille, -\taille);
+                \draw (\taille, -\taille) -- (\taille, \taille);
+                \draw (\taille, \taille) -- (-\taille, \taille);
+                \draw (-\taille, \taille) -- (-\taille, -\taille);
+
+                \draw[green] (1, -1) -- (-1, -2);
+                \draw[green] (1, -1) -- (0, 1);
+                \draw[green] (1, -1) -- (2, 2.5);
+                \draw[green] (1, -1) -- (1.5, -2.5);
+                \draw[green] (1, -1) -- (-2.5, 0);
+
+                \draw[red] (-2, 2) -- (-1, -2);
+                \draw[red] (-2, 2) -- (0, 1);
+                \draw[red] (-2, 2) -- (1, -1);
+                \draw[red] (-2, 2) -- (2, 2.5);
+                \draw[red] (-2, 2) -- (1.5, -2.5);
+                \draw[red] (-2, 2) -- (-2.5, 0);
+
+                \filldraw (-2, 2) circle (0.1);
+                \filldraw (-1, -2) circle (0.1);
+                \filldraw (0, 1) circle (0.1);
+                \filldraw (1, -1) circle (0.1);
+                \filldraw (2, 2.5) circle (0.1);
+                \filldraw (1.5, -2.5) circle (0.1);
+                \filldraw (-2.5, 0) circle (0.1);
+            \end{tikzpicture}
+        \end{minipage}
+    \end{frame}
+    \begin{frame}
+        \frametitle{Calcul}
+        \begin{minipage}{0.5\textwidth}
+            \includegraphics[scale=0.35]{\cheminImages explication_densite1.png}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.45\textwidth}
+            \includegraphics[scale=0.35]{\cheminImages explication_densite2.png}
+        \end{minipage}
+    \end{frame}
+    \begin{frame}
+        \frametitle{Résultat théorique}
+        \center
+        \tiny
+        \[
+        f(x) = 
+        \begin{cases}
+        \pi+x-4 \cdot \sqrt{x} & \text{pour } x\in[0,1[\\
+        -2-\pi-x+4\operatorname{arcsin}\left(\frac{1}{\sqrt{x}}\right) + 4\sqrt{x-1} & \text{pour } x\ge 1
+        \end{cases}
+        \]
+        \\
+        \includegraphics[scale=0.45]{\cheminImages densiter_theorique.png}\\
+        résultats de Johan Philip, référence [6]
+    \end{frame}
+    \begin{frame}
+        \frametitle{Résultats}
+        \center
+        \includegraphics[scale=0.55]{\cheminImages test_densite1.png}
+    \end{frame}
+    \begin{frame}
+        \frametitle{Résultats}
+        \begin{center}
+            \begin{tikzpicture}
+                \node[anchor=west, inner sep=0] (im1) at (0,0) {
+                    \includegraphics[width=5cm]{\cheminImages test_densite1.png}
+                };
+                \node[anchor=west, inner sep=0, draw=darkgray, line width=1pt] (im2) at (6,0) {
+                    \includegraphics[width=5cm]{\cheminImages test_densite2.png}
+                };
+                \node[draw=red, line width=0.2pt, minimum size=0.1cm, inner sep=0] (cadre) at (1.55, -0.63) {};
+                \draw[red, dashed, thin] (cadre.north east) -- (im2.north west);
+                \draw[red, dashed, thin] (cadre.south east) -- (im2.south west);
+            \end{tikzpicture}
+        \end{center}
+    \end{frame}
+    \begin{frame}
+        \frametitle{Comparaison}
+        \begin{minipage}{0.5\textwidth}
+            \center
+            Soit $f,g \in C^1([a,b])$.
+
+            \[
+            \langle f \mid g \rangle
+            = \int_a^b f(t)\, g(t)\, dt
+            \]
+            \\
+            \[d(f,g)^2 =\|f-g\|^2\]
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.45\textwidth}
+            \includegraphics[scale=0.35]{\cheminImages comparaison_generateur1.png}
+        \end{minipage}
+    \end{frame}
+    \begin{frame}
+        \frametitle{Comparaison}
+        \includegraphics[scale=0.65]{\cheminImages comparaison_generateur2.png}
+    \end{frame}
+
+\section{Conclusion}
+    \begin{frame}
+        \begin{center}
+            \Huge
+            Conclusion
+        \end{center}
+    \end{frame}
+    \begin{frame}
+\begin{center}
+        \begin{tabular}{c|c}
+            \textbf{Générateur informatique} & \textbf{Générateur physique}\\
+            \hline
+            rapide& lent\\
+            génération simple & génération compliquée\\
+            bonnes propriétes statistiques & propriétés statitiques variables \\
+            \hline
+            pas vraiment aléatoire & vraiment aléatoire
+        \end{tabular}
+    \end{center}
+        %Les générateurs informatiques sont rapides, simples et vérifient les propriétés statistiques d'une suite aléatoire, mais ne sont pas vraiment aléatoires.
+        %\\\vspace{1cm}
+        %Les générateurs physiques sont plus lents, compliqués et ne vérifient pas toujours les propriétés statistiques d'une suite aléatoire, mais sont vraiment aléatoires.
+    \end{frame}
+\appendix
+\setbeamertemplate{footline}{}
+\setbeamertemplate{navigation symbols}{}
+\includepdf[pages=-, link=true, fitpaper=true]{annexe.pdf}
+
+\end{document}
