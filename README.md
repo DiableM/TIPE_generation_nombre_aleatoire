@@ -2,15 +2,15 @@
 
 Donnee:
 
-  -1: Acquisition des données expérimental
+  1: Acquisition des données expérimental
   
-  -2: historique d'une execution du programme pour trouver les coefficient d'un générateur congruentiel
+  2: historique d'une execution du programme pour trouver les coefficient d'un générateur congruentiel
   
-  -3: résultat du test de densité
+  3: résultat du test de densité
 
 Marche_aleatoire:
 
-  -1: réalise une marche aléatoire
+  1: réalise une marche aléatoire
 
 Presentation:
 
