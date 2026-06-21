@@ -1,8 +1,11 @@
-# TIPE_2025_2026
+# TIPE_generation_nombre_aleatoire
 
-Donnee:\n
+Donnee:
+
   -Acquisition des données expérimental
+  
   -historique d'une execution du programme pour trouver les coefficient d'un générateur congruentiel
+  
   -résultat du test de densité
 
 Marche_aleatoire:
