@@ -1,6 +1,6 @@
 # TIPE_2025_2026
 
-Donnee:
+Donnee:\n
   -Acquisition des données expérimental
   -historique d'une execution du programme pour trouver les coefficient d'un générateur congruentiel
   -résultat du test de densité
